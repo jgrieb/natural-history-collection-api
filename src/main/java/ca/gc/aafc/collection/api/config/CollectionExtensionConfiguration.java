@@ -22,6 +22,8 @@ import ca.gc.aafc.dina.property.YamlPropertyLoaderFactory;
 @PropertySource(value = "classpath:extension/mixsWaterv4.yml", factory  = YamlPropertyLoaderFactory.class)
 @PropertySource(value = "classpath:extension/agronomy_ontology.yml", factory = YamlPropertyLoaderFactory.class)
 @PropertySource(value = "classpath:extension/NCBI_SRA_Projectv1.yml", factory  = YamlPropertyLoaderFactory.class)
+@PropertySource(value = "classpath:extension/sgn_geosample_extension.yml", factory  = YamlPropertyLoaderFactory.class)
+@PropertySource(value = "classpath:extension/sgn_marine_sampling_extension.yml", factory  = YamlPropertyLoaderFactory.class)
 @Validated
 public class CollectionExtensionConfiguration {
 

@@ -1,0 +1,16 @@
+extension:
+  sgn_marine_sampling:
+    fields:
+    - key: marine_region
+      dinaComponent: COLLECTING_EVENT
+      multilingualDescription.descriptions:
+      - desc: The marine region/ water body where a collecting event was conducted, aligned with https://marineregions.org/
+        lang: en
+      name: Marine Region
+      term: http://rs.tdwg.org/dwc/terms/higherGeographyID
+      vocabularyElementType: "CONCEPTURL"
+      conceptQueryEndpoint: "https://taxonomy-dina.senckenberg.de/sparql/marineregions/sparql"
+    key: sgn_marine_sampling
+    name: SGN Marine Sampling
+    version: v1
+

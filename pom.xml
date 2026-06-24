@@ -50,7 +50,7 @@
     <dependency>
       <groupId>io.github.aafc-bicoe</groupId>
       <artifactId>dina-base-api</artifactId>
-      <version>${dina-base-api.version}</version>
+      <version>${dina-base-api.version}-sgn</version>
       <exclusions>
         <exclusion>
           <groupId>org.eclipse.persistence</groupId>

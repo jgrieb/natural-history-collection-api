@@ -1,0 +1,4640 @@
+extension:
+  sgn_geosample:
+    fields:
+    - acceptedValues:
+      - Proterozoikum
+      - Neoproterozoikum
+      - Neoproterozoikum III
+      - Cryogenium
+      - Tonium
+      - Mesoproterozoikum
+      - Steinium
+      - Ectasium
+      - Calymmium
+      - Paläoproterozoikum
+      - Statherium
+      - Orosirium
+      - Rhyacium
+      - Siderium
+      - Archäikum
+      - Neoarchäikum
+      - Mesoarchäikum
+      - Paläoarchäikum
+      - Eoarchäikum
+      - Phanerozoikum
+      - Paläozoikum
+      - Perm
+      - Lopingium
+      - Changhsingium
+      - Wuchlapigium
+      - Guadelupium
+      - Capitanium
+      - Wordium
+      - Roadium
+      - Cisuralium
+      - Kungurium
+      - Artinskium
+      - Sakmarium
+      - Asselium
+      - Karbon
+      - Ober-Karbon
+      - Unter-Karbon
+      - Devon
+      - Ober-Devon
+      - Famennium
+      - Frasnium
+      - Mittel-Devon
+      - Givetium
+      - Eifelium
+      - Unter-Devon
+      - Emsium
+      - Pragium
+      - Lochkovium
+      - Silur
+      - Pridolium
+      - Ludlowium
+      - Ludfordium
+      - Gorstium
+      - Wenlockium
+      - Homerium
+      - Sheinwoodium
+      - Llandoveryium
+      - Telychium
+      - Aeronium
+      - Rhuddanium
+      - Ordovicium
+      - Ober-Ordovicium
+      - Mittel-Ordovicium
+      - Darriwilium
+      - Unter-Ordovicium
+      - Kambrium
+      - Ober-Kambrium
+      - Mittel-Kambrium
+      - Unter-Kambrium
+      - Känozoikum
+      - Quartär
+      - Holozän
+      - Pleistozän
+      - Neogen
+      - Pliozän
+      - Gelasium
+      - Piacenzium
+      - Zancleum
+      - Miozän
+      - Messinium
+      - Tortonium
+      - Serravallium
+      - Langhium
+      - Burdigalium
+      - Aquitanium
+      - Paläogen
+      - Oligozän
+      - Chattium
+      - Rupelium
+      - Eozän
+      - Priabonium
+      - Bartonium
+      - Lutetium
+      - Ypresium
+      - Paläozän
+      - Thanetium
+      - Selandium
+      - Danium
+      - Mesozoikum
+      - Kreide
+      - Ober-Kreide
+      - Maastrichtium
+      - Campanium
+      - Santonium
+      - Coniacium
+      - Turonium
+      - Cenomanium
+      - Unter-Kreide
+      - Albium
+      - Aptium
+      - Barremium
+      - Hauterivium
+      - Valanginium
+      - Berriasium
+      - Jura
+      - Ober-Jura
+      - Tithonium
+      - Kimmeridgium
+      - Oxfordium
+      - Mittel-Jura
+      - Callovium
+      - Bathonium
+      - Bajocium
+      - Aalenium
+      - Unter-Jura
+      - Toarcium
+      - Pliensbachium
+      - Sinemurium
+      - Hettangium
+      - Trias
+      - Ober-Trias
+      - Rhätium
+      - Norium
+      - Carnium
+      - Mittel-Trias
+      - Ladinium
+      - Anisium
+      - Unter-Trias
+      - Olenekium
+      - Induanium
+      - Ober-Perm
+      - Oberes Kimmeridgium
+      - Unteres Kimmeridgium
+      - Unteres Maastrichtium
+      dinaComponent: MATERIAL_SAMPLE
+      key: chronostratigraphic_name
+      multilingualDescription.descriptions:
+      - desc: The formal  geo/chrono chronologic name e.g. Jurassic, Kimmeridgian
+          etc.
+        lang: en
+      name: Chronostratigraphic Name
+      term: http://rs.tdwg.org/abcd/efg/ChronostratigraphicName
+    - dinaComponent: MATERIAL_SAMPLE
+      key: verbatim_chronostratigraphic_name
+      multilingualDescription.descriptions:
+      - desc: TODO (from SeSam)
+        lang: en
+      name: Verbaitm Chronostratigraphic Name
+    - dinaComponent: MATERIAL_SAMPLE
+      key: verbatim_lithostratigraphic_name
+      multilingualDescription.descriptions:
+      - desc: TODO (from SeSam)
+        lang: en
+      name: Verbatim lithostratigraphic name
+    - dinaComponent: MATERIAL_SAMPLE
+      key: verbatim_biostratigraphic_name
+      multilingualDescription.descriptions:
+      - desc: TODO (from SeSam)
+        lang: en
+      name: Verbatim biostratigrphic name
+    - dinaComponent: MATERIAL_SAMPLE
+      key: lithologic_description
+      multilingualDescription.descriptions:
+      - desc: TODO (from SeSam)
+        lang: en
+      name: Lithologic description
+    - dinaComponent: MATERIAL_SAMPLE
+      key: sedimentologic_description
+      multilingualDescription.descriptions:
+      - desc: TODO (from SeSam)
+        lang: en
+      name: Sedimentologic description
+    - dinaComponent: MATERIAL_SAMPLE
+      key: ablagerungsraum
+      multilingualDescription.descriptions:
+      - desc: TODO (from SeSam)
+        lang: en
+      name: Ablagerungsraum
+      term: http://rs.tdwg.org/dwc/terms/bed
+    - dinaComponent: MATERIAL_SAMPLE
+      key: facies
+      multilingualDescription.descriptions:
+      - desc: TODO (from SeSam)
+        lang: en
+      name: Facies
+    - dinaComponent: MATERIAL_SAMPLE
+      key: regional_stratigraphy
+      multilingualDescription.descriptions:
+      - desc: TODO (from SeSam)
+        lang: en
+      name: Regional Stratigraphy
+    - dinaComponent: MATERIAL_SAMPLE
+      key: tectonic_unit
+      multilingualDescription.descriptions:
+      - desc: TODO (from SeSam)
+        lang: en
+      name: Tectonic unit
+    - dinaComponent: MATERIAL_SAMPLE
+      key: maximum_absolute_age
+      multilingualDescription.descriptions:
+      - desc: TODO (from SeSam)
+        lang: en
+      name: Maximum absolute age
+    - dinaComponent: MATERIAL_SAMPLE
+      key: minimum_absolute_age
+      multilingualDescription.descriptions:
+      - desc: TODO (from SeSam)
+        lang: en
+      name: Minimum absolute age
+      unit: years
+      vocabularyElementType: DECIMAL
+    - acceptedValues:
+      - rock
+      - mineral
+      - meteorite
+      dinaComponent: MATERIAL_SAMPLE
+      key: geology_specimen_higher_type
+      multilingualDescription.descriptions:
+      - desc: High level type of geological specimen
+        lang: en
+      name: Geology Specimen Higher Type
+    - dinaComponent: MATERIAL_SAMPLE
+      key: verbatim_geology_specimen_type_name
+      multilingualDescription.descriptions:
+      - desc: 'idea: free text field for exact rock type (e.g. Eklogit). Should be
+          connected to a remote api providing unique IDs and names on the long term.
+          Consider: https://data.bgs.ac.uk/v/vocab/rthmtrlclss:RockClassAll or ENVO
+          hierarchy below http://purl.obolibrary.org/obo/ENVO_00001995'
+        lang: en
+      name: Verbatim geology specimen type name
+    - acceptedValues:
+      - Others
+      - '10.B: Hydrocarbons'
+      - 9.HH.
+      - 1.CC.05
+      - 1. Elements
+      - '1.A: Metals and Intermetallic Alloys'
+      - 1.AA.
+      - 1.AB.
+      - 1.AC.
+      - 1.AD.
+      - 1.AE.
+      - 1.AF.
+      - 1.AG.
+      - '1.B: Metallic Carbides, Silicides, Nitrides'
+      - 1.BA.
+      - 1.BB.
+      - 1.BC.
+      - 1.BD.
+      - '1.C: Metalloids and Nonmetals'
+      - 1.CA.
+      - 1.CB.
+      - 1.CC.
+      - '1.D: Nonmetallic Carbides and Nitrides'
+      - 1.DA.
+      - 1.DB.
+      - 10. Organic compounds
+      - '10.A: Salts of organic acids'
+      - 10.AA.
+      - 10.AB.
+      - 10.AC.
+      - 10.AD.
+      - '10.C: Miscellaneous Organic Minerals'
+      - 2. Sulfides and Sulfosalts
+      - '2.A: Metal/metalloid alloys'
+      - 2.AA.
+      - 2.AB.
+      - 2.AC.
+      - '2.B: Metal Sulfides, M:S > 1:1 (mainly 2:1)'
+      - 2.BA.
+      - 2.BB.
+      - 2.BC.
+      - 2.BD.
+      - 2.BE.
+      - '2.C: Metal Sulfides, M: S = 1: 1 (and similar)'
+      - 2.CA.
+      - 2.CB.
+      - 2.CC.
+      - 2.CD.
+      - '2.D: Metal Sulfides, M:S = 3:4 and 2:3'
+      - 2.DA.
+      - 2.DB.
+      - 2.DC.
+      - '2.E: Metal Sulfides, M: S :S=1: 2'
+      - 2.EA.
+      - 2.EB.
+      - 2.EC.
+      - '2.F: Sulfides of arsenic, alkalies; sulfides etc.'
+      - 2.FA.
+      - 2.FB.
+      - 2.FC.
+      - 2.FD.
+      - '2.G: Sulfarsenites, sulfantimonites, sulfb.'
+      - 2.GA.
+      - 2.GB.
+      - 2.GC.
+      - 2.GD.
+      - '2.H: Sulfosalts of SnS archetype'
+      - 2.HA.
+      - 2.HB.
+      - 2.HC.
+      - 2.HD.
+      - 2.HE.
+      - 2.HF.
+      - '2.J: Sulfosalts of PbS archetype'
+      - 2.JA.
+      - 2.JB.
+      - 2.JC.
+      - '2.K: Sulfarsenates'
+      - 3. Halides
+      - '3.A: Simple halides,  no  H2O'
+      - 3.AA.
+      - 3.AB.
+      - 3.AC.
+      - '3.B: Simple halides, with H2O'
+      - 3.BA.
+      - 3.BB.
+      - 3.BC.
+      - 3.BD.
+      - '3.C: Complex halides'
+      - 3.CA.
+      - 3.CB.
+      - 3.CC.
+      - 3.CD.
+      - 3.CE.
+      - 3.CF.
+      - 3.CG.
+      - 3.CH.
+      - 3.CJ.
+      - '3.D: Oxyhalides, hydroxyhalides and related'
+      - 3.DA.
+      - 3.DB.
+      - 3.DC.
+      - 3.DD.
+      - 4. Oxides
+      - '4.A: Metal: Oxygen = 2: 1 and 1 : 1'
+      - 4.AA.
+      - 4.AB.
+      - 4.AC.
+      - '4.B: Metal: Oxygen = 3: 4 and similar'
+      - 4.BA.
+      - 4.BB.
+      - 4.BC.
+      - 4.BD.
+      - '4.C: Metal:Oxygen = 2:3,3:5, and similar'
+      - 4.CA.
+      - 4.CB.
+      - 4.CC.
+      - '4.D: Metal: Oxygen = 1: 2 and similar'
+      - 4.DA.
+      - 4.DB.
+      - 4.DC.
+      - 4.DD.
+      - 4.DE.
+      - 4.DF.
+      - 4.DG.
+      - 4.DH.
+      - 4.DJ.
+      - 4.DK.
+      - 4.DL.
+      - 4.DM.
+      - 4.FA.
+      - 4.FB.
+      - 4.FC.
+      - 4.FD.
+      - 4.FE.
+      - 4.FF.
+      - 4.FG.
+      - 4.FH.
+      - 4.FJ.
+      - 4.FK.
+      - 4.FL.
+      - 4.FM.
+      - '4.G: Uranyl Hydroxides'
+      - 4.GA.
+      - 4.GB.
+      - 4.GC.
+      - '4.H: V[5,6] Vanadates'
+      - 4.HA.
+      - 4.HB.
+      - 4.HC.
+      - 4.HD.
+      - 4.HE.
+      - 4.HF.
+      - 4.HG.
+      - '4.J: Arsenites, antimonites, bismuthites etc.'
+      - 4.JA.
+      - 4.JB.
+      - 4.JC.
+      - 4.JD.
+      - 4.JE.
+      - 4.JF.
+      - 4.JG.
+      - 4.JH.
+      - 4.JJ.
+      - 4.JK.
+      - 4.JL.
+      - 4.JM.
+      - 4.JN.
+      - '4.K: Iodates'
+      - 4.KA.
+      - 4.KB.
+      - 4.KC.
+      - 4.KD.
+      - 5. Carbonates and Nitrates
+      - '5.A: Carbonates no add. anions, no H20'
+      - 5.AA.
+      - 5.AB.
+      - 5.AC.
+      - 5.AD.
+      - '5.B: Carbonates with add. anions, no H20'
+      - 5.BA.
+      - 5.BB.
+      - 5.BC.
+      - 5.BD.
+      - 5.BE.
+      - 5.BF.
+      - '5.C: Carbonates no add. anions, with H20'
+      - 5.CA.
+      - 5.CB.
+      - 5.CC.
+      - '5.D: Carbonates with add. anions, with H20'
+      - 5.DA.
+      - 5.DB.
+      - 5.DC.
+      - '5.E: Uranyl Carbonates'
+      - 5.EB.
+      - 5.EC.
+      - 5.ED.
+      - 5.EE.
+      - 5.EF.
+      - 5.EG.
+      - '5.N: Nitrates'
+      - 5.NA.
+      - 5.NB.
+      - 5.NC.
+      - 5.ND.
+      - 6. Borates
+      - '6.A: Monoborates'
+      - 6.AA.
+      - 6.AB.
+      - 6.AC.
+      - '6.B: Diborates'
+      - 6.BA.
+      - 6.BB.
+      - 6.BC.
+      - '6.C: Triborates'
+      - 6.CA.
+      - 6.CB.
+      - 6.CC.
+      - '6.D: Tetraborates'
+      - 6.DA.
+      - 6.DB.
+      - 6.DC.
+      - 6.DD.
+      - '6.E: Pentaborates'
+      - 6.EA.
+      - 6.EB.
+      - 6.EC.
+      - 6.ED.
+      - '6.F: Hexaborates'
+      - 6.FA.
+      - 6.FB.
+      - 6.FC.
+      - '6.G: Heptaborates and other megaborates'
+      - '6.H: Unclassified borates'
+      - 7. Sulfates
+      - '7.A: Sulfates no add. anions, no H2O'
+      - 7.AA.
+      - 7.AB.
+      - 7.AC.
+      - 7.AD.
+      - '7.B: Sulfates with add. anions, no H2O'
+      - 7.BA.
+      - 7.BB.
+      - 7.BC.
+      - 7.BD.
+      - '7.C: Sulfates no add. anions, with H2O'
+      - 7.CA.
+      - 7.CB.
+      - 7.CC.
+      - 7.CD.
+      - '7.D: Sulfates with add. anions, with H20'
+      - 7.DA.
+      - 7.DB.
+      - 7.DC.
+      - 7.DD.
+      - 7.DE.
+      - 7.DF.
+      - 7.DG.
+      - '7.E: Uranyl sulfates'
+      - 7.EA.
+      - 7.EB.
+      - 7.EC.
+      - '7.F: Chromates'
+      - 7.FA.
+      - 7.FB.
+      - 7.FC.
+      - 7.GA.
+      - 7.GB.
+      - '7.H: Uranium and uranyl molybdates and wolframates'
+      - 7.HA.
+      - 7.HB.
+      - 8. Phosphates, Arsenates and Vanadates
+      - '8.A: Phosphates, etc. no add. anions, no H20'
+      - 8.AA.
+      - 8.AB.
+      - 8.AC.
+      - 8.AD.
+      - '8.B: Phosphates, etc., with add. anions, no H20'
+      - 8.BA.
+      - 8.BB.
+      - 8.BC.
+      - 8.BD.
+      - 8.BE.
+      - 8.BF.
+      - 8.BG.
+      - 8.BH.
+      - 8.BJ.
+      - 8.BK.
+      - 8.BL.
+      - 8.BM.
+      - 8.BN.
+      - 8.BO.
+      - '8.C: Phosphates no add. anions, with H2O'
+      - 8.CA.
+      - 8.CB.
+      - 8.CC.
+      - 8.CD.
+      - 8.CE.
+      - 8.CF.
+      - 8.CG.
+      - 8.CH.
+      - 8.CJ.
+      - '8.D: Phosphates, etc. with add. anions, with H2O'
+      - 8.DA.
+      - 8.DB.
+      - 8.DC.
+      - 8.DD.
+      - 8.DE.
+      - 8.DF.
+      - 8.DG.
+      - 8.DH.
+      - 8.DJ.
+      - 8.DK.
+      - 8.DL.
+      - 8.DM.
+      - 8.DN.
+      - 8.DO.
+      - '8.E: Uranyl phosphates and arsenates'
+      - 8.EA.
+      - 8.EB.
+      - 8.EC.
+      - 8.ED.
+      - '8.F: Polyphosphates, polyarsenates, [4]-polyv.'
+      - 8.FA.
+      - 8.FB.
+      - 8.FC.
+      - 8.FD.
+      - 8.FE.
+      - 9. Silicates (Germanates)
+      - '9.A: Nesosilicates'
+      - 9.AA.
+      - 9.AB.
+      - 9.AC.
+      - 9.AD.
+      - 9.AE.
+      - 9.AF.
+      - 9.AG.
+      - 9.AH.
+      - 9.AJ.
+      - 9.AK.
+      - '9.B: Sorosilicates'
+      - 9.BA.
+      - 9.BB.
+      - 9.BC.
+      - 9.BD.
+      - 9.BE.
+      - 9.BF.
+      - 9.BG.
+      - 9.BH.
+      - 9.BJ.
+      - 9.BK.
+      - '9.C: Cyclosilicates'
+      - 9.CA.
+      - 9.CB.
+      - 9.CC.
+      - 9.CD.
+      - 9.CE.
+      - 9.CF.
+      - 9.CG.
+      - 9.CH.
+      - 9.CJ.
+      - 9.CK.
+      - 9.CL.
+      - 9.CM.
+      - 9.CN.
+      - 9.CO.
+      - 9.CP.
+      - '9.D: Inosilicates'
+      - 9.DA.
+      - 9.DB.
+      - 9.DC.
+      - 9.DD.
+      - 9.DE.
+      - 9.DF.
+      - 9.DG.
+      - 9.DH.
+      - 9.DJ.
+      - 9.DK.
+      - 9.DL.
+      - 9.DM.
+      - 9.DN.
+      - 9.DO.
+      - 9.DP.
+      - 9.DQ.
+      - '9.E: Phyllosilicates'
+      - 9.EA.
+      - 9.EB.
+      - 9.EC.
+      - 9.ED.
+      - 9.EE.
+      - 9.EF.
+      - 9.EG.
+      - 9.EH.
+      - '9.F: Tektosilicates no zeolitic H20'
+      - 9.FA.
+      - 9.FB.
+      - '9.G: Tektosilicates with zeolitic H2O: zeolites'
+      - 9.GA.
+      - 9.GB.
+      - 9.GC.
+      - 9.GD.
+      - 9.GE.
+      - 9.GF.
+      - 9.GG.
+      - 9.GH.
+      - '9.H: Unclassified silicates'
+      - 9.HA.
+      - 9.HB.
+      - 9.HC.
+      - 9.HD.
+      - 4.DB.05
+      - 4.DB.05
+      - Rutil
+      - 4.DD.05
+      - Anatas
+      - 4.FD.10
+      - Goethit
+      - 7.AD.35
+      - Baryt
+      - 9.EC.30
+      - Chamosit
+      - 9.GA.05
+      - Thomsonit
+      - 9.CK.05
+      - Schörl
+      - Pyrolusit
+      - 4.DK.10
+      - Romanèchit
+      - Romanèchit
+      - 4.DK.05
+      - Hollandit
+      - Kryptomelan
+      - 4.DH.15
+      - Pyrochlor
+      - 4.DB.35
+      - Columbit
+      - 4.DG.05
+      - Polykras
+      - Kassiterit
+      - 4.DB.30
+      - Wolframit
+      - Euxenit-(Y)
+      - 4.DD.10
+      - Brookit
+      - 4.DF.05
+      - Aeschynit
+      - 4.DH.30
+      - Zirkonolith
+      - 9.FA.25
+      - Oligoklas
+      - Andradit
+      - 4.DL.05
+      - Uraninit
+      - 4.EA.10
+      - Ilsemanit (wasserhaltiges Mo-oxid)
+      - Diaspor
+      - Cristobalit
+      - 4.CB.05
+      - Haematit
+      - 4.FE.15
+      - Lepidokrokit
+      - Ilmenit
+      - 4.FE.10
+      - 9.AG.15
+      - Titanit
+      - 5.BA.05
+      - Azurit
+      - 9.AJ.20
+      - Gadolinit
+      - 9.FB.10
+      - Sodalith
+      - Coelestin
+      - 9.AA.05
+      - Phenakit
+      - 8.DK.15
+      - Dufrenit
+      - Elektrum
+      - 4.FE.25
+      - Lithiophorit
+      - Almandin
+      - 4.BB.05
+      - Magnetit
+      - Daraj 133
+      - Daraj 137
+      - Daraj 143
+      - Acfer 320
+      - L3.2
+      - C3-ung
+      - Faith
+      - Farley
+      - Faucett
+      - Favars
+      - Ferguson Switch
+      - Flandreau
+      - Forest City
+      - Forrest 014
+      - Gao-Guenie
+      - Garrison
+      - Gascoyne Junction
+      - Geidam
+      - Gilgoin
+      - Hammadah al Hamra 001
+      - Hammadah al Hamra 216
+      - Hammadah al Hamra 228
+      - Hammadah al Hamra 230
+      - Hammadah al Hamra 233
+      - Hammadah al Hamra 235
+      - Heredia
+      - Hessle
+      - Hobbs (b)
+      - Horace
+      - Hughes 012
+      - Hugoton
+      - Idutywa
+      - Isthilart
+      - Jiddat al Harasis 011
+      - Jiddat al Harasis 013
+      - Jiddat al Harasis 014
+      - Jiddat al Harasis 016
+      - Jilin
+      - Juancheng
+      - Kennard
+      - Kerilis
+      - Kielpa
+      - Kiffa
+      - Kilbourn
+      - La Colina
+      - Laborel
+      - Lake Frome 002
+      - Leighton
+      - Lider (b)
+      - Lillaverke
+      - Limerick
+      - Lost City
+      - Macau
+      - Malotas
+      - Meester-Cornelis
+      - Melvern Lake
+      - Merua
+      - Miller (Arkansas)
+      - Misshof
+      - Mooresfort
+      - Morro do Rocio
+      - Muckera 004
+      - Muckera 012
+      - Nadiabondi
+      - Nazareth (c)
+      - Northwest Africa 1600
+      - Northwest Africa 1601
+      - Northwest Africa 1604
+      - Northwest Africa 850
+      - Nuevo Mercurio
+      - Nullarbor 006
+      - Nullarbor 007
+      - Olmedilla de Alarcón
+      - Orlovka
+      - Panhandle
+      - Pantar
+      - Plains
+      - Plainview (1917)
+      - Pokhra
+      - Pribram
+      - Pultusk
+      - Raco
+      - Reggane 001
+      - Richardton
+      - Riverton
+      - Rolla (1941)
+      - Roosevelt County 032
+      - Roosevelt County 034
+      - Roosevelt County 036
+      - Roosevelt County 038
+      - Roosevelt County 039
+      - Roosevelt County 040
+      - Roosevelt County 042
+      - Roosevelt County 046
+      - Roosevelt County 052
+      - Roosevelt County 053
+      - Roosevelt County 054
+      - Roosevelt County 055
+      - Roosevelt County 056
+      - Roosevelt County 060
+      - Roosevelt County 061
+      - Roosevelt County 062
+      - Gibbsit
+      - Monzonites
+      - Norites
+      - 5.EA.
+      - 7.FD.
+      - '7.G: Molybdates and wolframates'
+      - 9.HF.
+      - 9.HG.
+      - Igneous Rocks
+      - Hyabyssal Rocks
+      - Diorite-Tonalite-Series
+      - Gabbro-Series
+      - Granite-Granodiorite-Series
+      - Lamprophyres
+      - Others
+      - Pegmatites
+      - Syenite-Monzonite-Series
+      - Plutonic Rocks
+      - Alkali Granites
+      - Alkali Syenites
+      - Anorthosites
+      - Carbonatites
+      - Charnockites
+      - Diorites
+      - Essexites
+      - Foidplagisyenites
+      - Foidsyenites
+      - Gabbros
+      - Granites
+      - Granodiorites
+      - Monzodiorites
+      - Peralkaline Granites
+      - Peralkaline Syenites
+      - Syenites
+      - Theralithes
+      - Tonalites
+      - Ultra-alkaline Igneous Rocks
+      - Ultramafic Igneous Rocks
+      - Pyroklastic Rocks
+      - Volcanic Rocks
+      - Alkali Rhyolites
+      - Alkali Trachytes
+      - Andesites
+      - Basalts
+      - Basanites
+      - Dacites
+      - Foidites
+      - Latitandesites
+      - Latitbasalte
+      - Latites
+      - Others
+      - Phonolites
+      - Phonolitic Foidites
+      - Phonolitic Tephrites
+      - Rhyolites
+      - Silicic Volcanic Rocks
+      - Tephrites
+      - Tephritic Foidites
+      - Tephritic Phonolites
+      - Trachytes
+      - Volcanic Glasses
+      - Metamorphic Rocks
+      - Amphibolites
+      - Eklogites
+      - Glaucophanites
+      - Gneisses
+      - Granulites
+      - Greenschists
+      - Marbles
+      - Massive Metamorphic Rocks (Felses)
+      - Metasomatites
+      - Micaschists
+      - Migmatites
+      - Others
+      - Phyllites
+      - Quartzites
+      - Schists
+      - Serpentinite
+      - Ores
+      - Sedimentary Rocks
+      - Biogenic Sedimentitary Rocks
+      - Bituminous Rocks
+      - Carbonaceous Rocks
+      - Coals
+      - Others
+      - Phosphatic Rocks
+      - Chemical Deposits
+      - Calcareous Rocks
+      - Dolomitic Rocks
+      - Ferruginous Rocks
+      - Others
+      - Saline Rocks
+      - Siliceous Rocks
+      - Detrital Sedimentary Rocks
+      - Arcosic Rocks
+      - Arenaceous Rocks
+      - Argillaceous Rocks
+      - Breccias
+      - Clays
+      - Conglomerate Rocks
+      - Gravels
+      - Graywackes
+      - Others
+      - Sands
+      - Pyroklastic Sedimentary Rocks
+      - Ashes
+      - Ignimbrites
+      - Lapilli
+      - Others
+      - Tuffites
+      - Tuffs
+      - Tuffstones
+      - 9.CJ.30 Dioptase
+      - Dioptas
+      - 2.CD.10
+      - Galenit
+      - 2.EB.05
+      - Pyrit
+      - 2.CB.05
+      - Sphalerit
+      - Tiemannit
+      - 1.CB.05
+      - Graphit
+      - 2.BA.05
+      - Bornit
+      - 1.AA.05
+      - Kupfer
+      - 2.EC.05
+      - Nickelskutterudit
+      - 2.CD.25
+      - Cinnabarit
+      - 2.JB.10
+      - Bournonit
+      - 2.HC.15
+      - Boulangerit
+      - 5.AB.15
+      - Cerussit
+      - 8.BH.40
+      - Descloizit
+      - Rhodochrosit
+      - Elbait
+      - 5.BA.15
+      - Aurichalcit
+      - 5.BA.15
+      - 8.AB.10
+      - Triphylin
+      - 7.CD.30
+      - Gips
+      - Calcit
+      - 9.FA.15
+      - Leucit
+      - 9.DG.05
+      - Wollastonit
+      - 9.ED.10
+      - Chrysokoll
+      - 9.FA.20
+      - Orthoklas
+      - 9.EC.10
+      - Biotit
+      - 9.BG.05
+      - Epidot
+      - 9.GE.05
+      - Heulandit
+      - 9.AD.15
+      - Grossular
+      - 4.AA.10
+      - Cuprit
+      - 2.CC.10
+      - Pyrrhotin
+      - 8.EB.10
+      - Autunit
+      - Torbernit
+      - 8.AD.35
+      - Monazit
+      - 8.DD.15
+      - Türkis
+      - 8.CE.40
+      - Vivianit
+      - 8.BN.05
+      - Apatit
+      - Aragonit
+      - 7.BC.35
+      - Linarit
+      - Chlorit
+      - 5.AB.10
+      - Dolomit
+      - Daraj 130
+      - Acfer 317
+      - Acfer 318
+      - IVA-an
+      - Granat
+      - 3.AB.25
+      - Fluorit
+      - 5.DA.05
+      - Hydromagnesit
+      - Angrites
+      - Angrite
+      - Angra dos Reis (stone)
+      - Sahara 99555
+      - Carbonaceous chondrites
+      - C2-ung
+      - Bells
+      - Essebi
+      - Dar al Gani 429
+      - Dar al Gani 430
+      - Ningqiang
+      - C4-ung
+      - Coolidge
+      - Loongana 001
+      - CBa
+      - Bencubbin
+      - Gujba
+      - CBb
+      - Hammadah al Hamra 237
+      - CH3
+      - Acfer 182
+      - CI1
+      - Alais
+      - Ivuna
+      - Orgueil
+      - CK3
+      - Camel Donga 003
+      - CK3-an
+      - Dar al Gani 431
+      - Watson 002
+      - CK4
+      - Karoonda
+      - CK4/5
+      - Dar al Gani 275
+      - CK4-an
+      - Maralinga
+      - CK5
+      - Dar al Gani 412
+      - CM2
+      - Banten
+      - Cold Bokkeveld
+      - Mighei
+      - Murchison
+      - Murray
+      - Nogoya
+      - CO3
+      - Dar al Gani 078
+      - Dar al Gani 303
+      - Dar al Gani 331
+      - Dar al Gani 332
+      - CO3.0
+      - Colony
+      - CO3.2
+      - Kainsaz
+      - CO3.3
+      - Felix
+      - CO3.4
+      - Ornans
+      - CO3.5
+      - Acfer 202
+      - Lancé
+      - CO3.7
+      - Warrenton
+      - CO3.8
+      - Isna
+      - CR2
+      - Acfer 209
+      - El Djouf 001
+      - Northwest Africa 852
+      - CR-an
+      - Tafassasset
+      - CV2
+      - Mundrabilla 012
+      - CV3
+      - Acfer 082
+      - Allende
+      - Arch
+      - Axtell
+      - Bali
+      - Efremovka
+      - Grosnaja
+      - Leoville
+      - Vigarano
+      - Doubtful meteorites
+      - Doubtful meteorite
+      - Magdeburg
+      - Enstatite achondrites
+      - Aubrite
+      - Aubres
+      - Bishopville
+      - Bustee
+      - Cumberland Falls
+      - Khor Temiki
+      - Mayo Belwa
+      - Norton County
+      - Peña Blanca Spring
+      - Pesyanoe
+      - Aubrite-an
+      - Mount Egerton
+      - Enstatite chondrites
+      - E4
+      - Acfer 287
+      - EH3
+      - Qingzhen
+      - Sahara 97096
+      - EH4
+      - Abee
+      - Adhi Kot
+      - Indarch
+      - EH5
+      - St. Mark's
+      - EH7-an
+      - Itqiy
+      - EL4
+      - Dar al Gani 734
+      - EL4/5
+      - Grein 002
+      - EL5
+      - Tanezrouft 031
+      - EL6
+      - Atlanta
+      - Blithfield
+      - Eagle
+      - Forrest 033
+      - Hvittis
+      - Khairpur
+      - Neuschwanstein
+      - Pillistfer
+      - EL6/7
+      - Happy Canyon
+      - EL7
+      - Ilafegh 009
+      - HED achondrites
+      - Diogenite
+      - Bilanga
+      - Um-Hadid
+      - Ellemeet
+      - Ibbenbüren
+      - Johnstown
+      - Shalka
+      - Tatahouine
+      - Diogenite-pm
+      - Aioun el Atrouss
+      - Peckelsheim
+      - Eucrite
+      - Dar al Gani 480
+      - Dhofar 055
+      - Northwest Africa 769
+      - Eucrite-cm
+      - Binda
+      - Moore County
+      - Serra de Magé
+      - Eucrite-mmict
+      - Béréba
+      - Cachari
+      - Camel Donga
+      - Chervony Kut
+      - Dar al Gani 380
+      - Dar al Gani 647
+      - Ibitira
+      - Jonzac
+      - Juvinas
+      - Millbillillie
+      - Padvarninkai
+      - Sioux County
+      - Mesosiderite-A
+      - Stannern
+      - Eucrite-pmict
+      - Dar al Gani 391
+      - Dar al Gani 411
+      - Dar al Gani 443
+      - Macibini
+      - Malvern
+      - Pasamonte
+      - Petersburg
+      - Howardite
+      - Bholghati
+      - Hughes 004
+      - Hughes 005
+      - Kapoeta
+      - Melrose (b)
+      - Monticello
+      - Muckera 002
+      - Old Homestead 001
+      - Pavlovka
+      - Yamato 7308
+      - Yurtuk
+      - IAB complex
+      - Baygorria
+      - Bitburg
+      - Dar al Gani 406
+      - Sardis
+      - Yardymly
+      - IAB-an
+      - Mount Morris (Wisconsin)
+      - IAB-MG
+      - Bohumilitz
+      - Campo del Cielo
+      - Canyon Diablo
+      - Copiapo
+      - Cosby's Creek
+      - Cranbourne
+      - Gladstone (iron)
+      - Landes
+      - Linwood
+      - Magura
+      - Mount Ayliff
+      - Nantan
+      - Ocotillo
+      - Odessa (iron)
+      - Sarepta
+      - Seeläsgen
+      - Seligman
+      - Silver Crown
+      - Vaalbult
+      - Yenberrie
+      - Youndegin
+      - IAB-sLH
+      - Dayton
+      - Tazewell
+      - Wedderburn
+      - IAB-sLL
+      - Annaheim
+      - Bahjoi
+      - Deport
+      - Goose Lake
+      - Masua
+      - Moctezuma
+      - Toluca
+      - IAB-sLM
+      - Anoka
+      - Carlton
+      - Maltahöhe
+      - Mungindi
+      - IAB-ung
+      - Caddo County
+      - Ellicott
+      - Four Corners
+      - Kendall County
+      - Monzogabbros
+      - '4.E: Metal: Oxygen = < 1: 2'
+      - '4.F: Hydroxides (no  V or U)'
+      - '4.F: Hydroxides (no V or U)'
+      - 9.HE.
+      - '9.J: Germanates'
+      - Ungrouped achondrites
+      - Unclassified meteorites
+      - Rumuruti chondrites
+      - Unknown
+      - Ureilites
+      - Ordinary chondrites
+      - Pallasites
+      - Iron meteorites
+      - 4.DA.05
+      - Quarz
+      - Rosenquarz
+      - Citrin
+      - Bergkristall
+      - Bergkristall
+      - Chalcedon
+      - 4.DA.10
+      - Opal
+      - Schwefel
+      - 9.AF.05
+      - Disthen
+      - 9.AC.05
+      - Olivin
+      - Kassiterit - versch
+      - Varlamoffit
+      - Tridymit
+      - 5.AB.05
+      - Siderit
+      - Phum Sambo
+      - Bacubirito
+      - Barbianello
+      - Butler
+      - Cambria
+      - Chinga
+      - Cowra
+      - Deep Springs
+      - Horse Creek
+      - Mbosi
+      - Mont Dieu
+      - Morradal
+      - N'Goureyma
+      - Piñon
+      - Soper
+      - Tishomingo
+      - Tres Castillos
+      - Washington County
+      - IVA
+      - Bishop Canyon
+      - Bristol
+      - Charlotte
+      - Duchesne
+      - Gibeon
+      - Huizopa
+      - Iron River
+      - Muonionalusta
+      - Obernkirchen
+      - Putnam County
+      - Western Arkansas
+      - Chinautla
+      - Steinbach
+      - IVB
+      - Hoba
+      - Santa Clara
+      - Skookum
+      - Tlacotepec
+      - Lunar meteorites
+      - Lunar (anorth)
+      - Dar al Gani 400
+      - Dhofar 081
+      - Martian meteorites
+      - Martian (nakhlite)
+      - Lafayette (stone)
+      - Nakhla
+      - Martian (shergottite)
+      - Dar al Gani 476
+      - Dar al Gani 735
+      - Dhofar 378
+      - Los Angeles
+      - Sayh al Uhaymir 005
+      - Sayh al Uhaymir 008
+      - Shergotty
+      - Zagami
+      - Mesosiderites
+      - Mesosiderite
+      - Acfer 063
+      - Acfer 265
+      - Ilafegh 002
+      - Lamont
+      - Dalgaranga
+      - Mesosiderite-A1
+      - Crab Orchard
+      - Mount Padbury
+      - Vaca Muerta
+      - Mesosiderite-A2
+      - Clover Springs
+      - Mesosiderite-A3
+      - Emery
+      - Lowicz
+      - Mesosiderite-A3/4
+      - Estherville
+      - Mesosiderite-A4
+      - Hainholz
+      - Pinnaroo
+      - Simondium
+      - Mesosiderite-B1
+      - Chinguetti
+      - Mesosiderite-B4
+      - Bondoc
+      - Budulan
+      - Mincy
+      - H
+      - Aguas Calientes
+      - Avilez
+      - Dar al Gani 450
+      - Idalia
+      - Loop (b)
+      - Rolla (d)
+      - Tromøy
+      - Two Buttes (b)
+      - Wellman (d)
+      - H/L3
+      - Dar al Gani 378
+      - H/L3.5
+      - Dar al Gani 369
+      - H/L3.6
+      - Tieschitz
+      - H/L3.9
+      - Bremervörde
+      - H3
+      - Acfer 204
+      - Acfer 225
+      - Acfer 237
+      - Dar al Gani 318
+      - Dar al Gani 327
+      - Dar al Gani 354
+      - Daraj 011
+      - Daraj 121
+      - Daraj 122
+      - Dhofar 079
+      - Dhofar 095
+      - Dhofar 361
+      - Dhofar 364
+      - El Atchane 001
+      - Florence
+      - Grein 001
+      - Happy (a)
+      - Northwest Africa 847
+      - Tanezrouft 028
+      - H3.4
+      - Dar al Gani 475
+      - Roosevelt
+      - H3.5
+      - Dar al Gani 405
+      - Ilafegh 013
+      - H3.6
+      - Dar al Gani 442
+      - H3.7
+      - Acfer 129
+      - Acfer 210
+      - Brownfield (1937)
+      - Dimmitt
+      - Fleming
+      - Grady (1937)
+      - Tanezrouft 006
+      - H3.8
+      - Acfer 023
+      - Acfer 159
+      - Dhajala
+      - H3.8/4
+      - Hammadah al Hamra 028
+      - H3.8-an
+      - Willaroy
+      - H3.9
+      - Acfer 211
+      - Dar al Gani 454
+      - Hammadah al Hamra 002
+      - H3.9-5
+      - Acfer 192
+      - H3/4
+      - Gütersloh
+      - Trenzano
+      - H3-4
+      - Dar al Gani 385
+      - Tulia (a)
+      - H3-5
+      - Acfer 166
+      - Dar al Gani 300
+      - Dar al Gani 315
+      - Dar al Gani 353
+      - H3-6
+      - Acfer 162
+      - Acfer 200
+      - Acfer 259
+      - Hainaut
+      - Zag
+      - H4
+      - Acfer 262
+      - Acfer 294
+      - Acfer 301
+      - Adrian
+      - Aguemour 007
+      - Aguemour 011
+      - Akbarpur
+      - Avanhandava
+      - Bath
+      - Bethel (b)
+      - Bledsoe
+      - Broken Bow
+      - Bushnell
+      - Cañellas
+      - Cashion
+      - Cedar (Texas)
+      - Chico Hills
+      - Cleo Springs
+      - Coonana
+      - Correo
+      - Culbertson
+      - Dar al Gani 299
+      - Dar al Gani 322
+      - Dar al Gani 343
+      - Dar al Gani 346
+      - Dar al Gani 348
+      - Dar al Gani 384
+      - Dar al Gani 416
+      - Dar al Gani 419
+      - Dar al Gani 425
+      - Dar al Gani 432
+      - Dar al Gani 436
+      - Dar al Gani 445
+      - Dar al Gani 451
+      - Dar al Gani 469
+      - Dar al Gani 741
+      - Dar al Gani 901
+      - Dar al Gani 953
+      - Daraj 006
+      - Daraj 008
+      - Daraj 012
+      - Daraj 015
+      - Daraj 110
+      - Daraj 113
+      - Dhofar 046
+      - Dhofar 054
+      - Dhofar 058
+      - Dhofar 067
+      - Dhofar 069
+      - Dhofar 074
+      - Dhofar 077
+      - Dhofar 080
+      - Dhofar 085
+      - Dhofar 086
+      - Dhofar 090
+      - Dhofar 097
+      - Dhofar 115
+      - Dhofar 120
+      - Dhofar 127
+      - Dhofar 135
+      - Dhofar 150
+      - Dhofar 366
+      - Dhofar 371
+      - Edmonson (b)
+      - Ekeby
+      - El Atchane 008
+      - Elm Creek
+      - Fayetteville
+      - Forest Vale
+      - Forrest 015
+      - Forrest 037
+      - Foster
+      - Garnett
+      - Gaylord
+      - Ghéizel
+      - Gladstone (stone)
+      - Gobabeb
+      - Grady (c)
+      - Grüneberg
+      - Gruver
+      - Hammadah al Hamra 220
+      - Holyoke
+      - Kaffir (b)
+      - Kalaba
+      - Kalvesta
+      - Kesen
+      - La Villa
+      - Lewiston
+      - Lixna
+      - Lone Star
+      - Mayfield
+      - McKenzie Draw (a)
+      - McKenzie Draw (b)
+      - Menow
+      - Metsäkylä
+      - Monroe
+      - Namib Desert
+      - Ness County (1938)
+      - Northwest Africa 1599
+      - Northwest Africa 1606
+      - Northwest Africa 768
+      - Ochansk
+      - Portales (a)
+      - Portales (c)
+      - Quenggouk
+      - Ranchapur
+      - Ransom
+      - Rolla (1939)
+      - San Carlos
+      - Sayh al Uhaymir 003
+      - Sayh al Uhaymir 007
+      - Schaap-Kooi
+      - Selma
+      - Seminole
+      - Seminole (b)
+      - Seminole (c)
+      - Sena
+      - Seres
+      - St. Louis
+      - Tanezrouft 014
+      - Tanezrouft 024
+      - Tanezrouft 037
+      - Tanezrouft 044
+      - Tanezrouft 045
+      - Tanezrouft 052
+      - Tookabarnoo
+      - Tysnes Island
+      - Ulysses
+      - Villedieu
+      - Vyatka
+      - Weldona
+      - Wellman (c)
+      - Weston
+      - Willowdale
+      - Woodward County
+      - Wynella
+      - H4/5
+      - Acfer 231
+      - Acfer 238
+      - Acfer 285
+      - Dar al Gani 426
+      - Dar al Gani 447
+      - Dar al Gani 994
+      - El Atchane 004
+      - Little River (b)
+      - McCracken
+      - Morven
+      - Roosevelt County 037
+      - Roosevelt County 043
+      - Sayh al Uhaymir 096
+      - Sayh al Uhaymir 100
+      - Tanezrouft 043
+      - Tiffa 002
+      - Yonozu
+      - H4/6
+      - Muleshoe
+      - H4-5
+      - Amadror 001
+      - Hammadah al Hamra 217
+      - Hammadah al Hamra 221
+      - Hammadah al Hamra 225
+      - Hammadah al Hamra 227
+      - Tanezrouft 015
+      - H4-6
+      - Dar al Gani 435
+      - Northwest Africa 1608
+      - Northwest Africa 1609
+      - H5
+      - Acfer 194
+      - Acfer 196
+      - Acfer 203
+      - Acfer 205
+      - Acfer 206
+      - Acfer 212
+      - Acfer 220
+      - Acfer 226
+      - Acfer 229
+      - Acfer 230
+      - Acfer 232
+      - Acfer 235
+      - Acfer 245
+      - Acfer 260
+      - Acfer 276
+      - Acfer 278
+      - Acfer 279
+      - Acfer 283
+      - Acfer 284
+      - Acfer 292
+      - Acfer 302
+      - Acfer 308
+      - Acfer 313
+      - Achilles
+      - Adams County
+      - ad-Dahbubah
+      - Agen
+      - Aguemour 005
+      - Aguemour 010
+      - Aguemour 012
+      - Alamogordo
+      - Alessandria
+      - Allegan
+      - Ambapur Nagla
+      - Ashmore
+      - Assisi
+      - Barbotan
+      - Barwise
+      - Beardsley
+      - Beaver Creek
+      - Ben Kesbes 001
+      - Boaz (stone)
+      - Boolka
+      - Bowden
+      - Breitscheid
+      - Brownfield (1964)
+      - Burdett
+      - Bur-Gheluai
+      - Cangas de Onis
+      - Carichic
+      - Casilda
+      - Castalia
+      - Cee Vee
+      - Mundrabilla
+      - Santa Catharina
+      - Udei Station
+      - Woodbine
+      - Zagora
+      - IC
+      - Arispe
+      - Bendegó
+      - Chihuahua City
+      - Mount Dooling
+      - Santa Rosa
+      - IC-an
+      - Nocoleche
+      - IIAB
+      - Ainsworth
+      - Boguslavka
+      - Braunau
+      - Bruno
+      - Calico Rock
+      - Cedartown
+      - Chesterville
+      - Coahuila
+      - Dar al Gani 413
+      - Derrick Peak A78012
+      - Edmonton (Canada)
+      - Forsyth County
+      - Guadalupe y Calvo
+      - Indian Valley
+      - Inningen
+      - Keen Mountain
+      - Kopjes Vlei
+      - Lombard
+      - Mayodan
+      - Mount Joy
+      - Navajo
+      - Nenntmannsdorf
+      - North Chile
+      - Okahandja
+      - Santa Luzia
+      - São Julião de Moreira
+      - Sikhote-Alin
+      - Smithonia
+      - Uwet
+      - IIC
+      - Unter-Mässing
+      - Wiley
+      - IID
+      - Brownfield (iron)
+      - Carbo
+      - Elbogen
+      - Needles
+      - IIE
+      - Kodaikanal
+      - Miles
+      - Watson 001
+      - IIE-an
+      - Netschaëvo
+      - Weekeroo Station
+      - IIF
+      - Corowa
+      - Monahans (1938)
+      - IIG
+      - La Primitiva
+      - Tombigbee River
+      - IIIAB
+      - Aggie Creek
+      - Aldama (a)
+      - Augustinovka
+      - Bear Creek
+      - Benedict
+      - Boxhole
+      - Buenaventura
+      - Cape York
+      - Carthage
+      - Daraj 114
+      - Casas Grandes
+      - Charcas
+      - Chilkoot
+      - Chupaderos
+      - Costilla Peak
+      - Dor el Gani
+      - Elyria
+      - Grant
+      - Gundaring
+      - Haig
+      - Henbury
+      - Ider
+      - Kalkaska
+      - Kayakent
+      - Kenton County
+      - Kouga Mountains
+      - Lenarto
+      - Livingston (Montana)
+      - Los Reyes
+      - Lucky Hill
+      - Milly Milly
+      - Mount Wegener
+      - Narraburra
+      - Nazareth (iron)
+      - Picacho
+      - Pierceville (iron)
+      - Russel Gulch
+      - Sacramento Mountains
+      - Samelia
+      - San Angelo
+      - Santa Apolonia
+      - Schwetz
+      - Ste. Croix
+      - Tamarugal
+      - Thule
+      - Thunda
+      - Trenton
+      - Turtle River
+      - Wabar
+      - Willamette
+      - Wolf Creek
+      - IIIAB-an
+      - Delegate
+      - Treysa
+      - IIIE
+      - Burlington
+      - Kokstad
+      - Staunton
+      - IIIF
+      - Clark County
+      - Moonbi
+      - Nelson County
+      - St. Genevieve County
+      - Iron
+      - Arabella
+      - Tulia (iron)
+      - Iron-ung
+      - Babb's Mill (Troost's Iron)
+      - Ikhrarene
+      - Ilafegh 006
+      - Jerome (Kansas)
+      - Kendleton
+      - Kramer Creek
+      - Kress (b)
+      - Laundry West
+      - McKinney
+      - Mossgiel
+      - Northwest Africa 1592
+      - Northwest Africa 767
+      - Pampa (c)
+      - Rio Negro
+      - Roosevelt County 033
+      - Roosevelt County 050
+      - Roosevelt County 058
+      - Roosevelt County 063
+      - Saratov
+      - Sayh al Uhaymir 017
+      - Sayh al Uhaymir 028
+      - Tennasilm
+      - Umm Ruaba (b)
+      - Valentine
+      - Valle de Allende
+      - Waltman
+      - Zhaodong
+      - L4/5
+      - Dar al Gani 448
+      - Dhofar 049
+      - Dhofar 062
+      - Dhofar 108
+      - Pampa (b)
+      - L5
+      - Acfer 201
+      - Acfer 215
+      - Acfer 228
+      - Acfer 281
+      - Acfer 288
+      - Acfer 307
+      - Acfer 312
+      - Adelie Land
+      - Aguemour 013
+      - Aguemour 014
+      - Aguemour 016
+      - Arapahoe
+      - Armel
+      - Arriba
+      - Ausson
+      - Barwell
+      - Baszkówka
+      - Beenham
+      - Bluff (a)
+      - Borkut
+      - Bowesmont (b)
+      - Briscoe
+      - Chandakapur
+      - Cilimus
+      - Claytonville
+      - Dar al Gani 330
+      - Dar al Gani 345
+      - Dar al Gani 349
+      - Dar al Gani 352
+      - Dar al Gani 387
+      - Dar al Gani 399
+      - Dar al Gani 479
+      - Dhofar 033
+      - Dhofar 044
+      - Dhofar 050
+      - Dhofar 051
+      - Dhofar 061
+      - Dhofar 094
+      - Dhofar 096
+      - Dhofar 099
+      - Dhofar 100
+      - Dhofar 111
+      - Dhofar 116
+      - Dhofar 119
+      - Dhofar 130
+      - Dhofar 140
+      - Dhofar 156
+      - Elenovka
+      - Ellerslie
+      - Ergheo
+      - Etter
+      - Farmington
+      - Finney
+      - Flagg
+      - Ghubara
+      - Gretna
+      - Guibga
+      - Hammadah al Hamra 231
+      - Hendersonville
+      - Homestead
+      - Honolulu
+      - Hughes 008
+      - Innisfree
+      - Kaffir (a)
+      - Kingfisher
+      - La Lande
+      - Lake Frome 005
+      - Lider (a)
+      - Lua
+      - Malakal
+      - Marion (Kansas)
+      - Marlow
+      - Melrose (a)
+      - Messina
+      - Monte Milone
+      - Mount Tazerzait
+      - Muckera 009
+      - Muddoor
+      - Mulberry Draw
+      - New Almelo
+      - Nullarbor 003
+      - Pohlitz
+      - Reliegos
+      - Rock Creek
+      - Roosevelt County 041
+      - Roosevelt County 051
+      - Roosevelt County 057
+      - Roy (1933)
+      - Salles
+      - Sayh al Uhaymir 001
+      - Sayh al Uhaymir 014
+      - Sayh al Uhaymir 020
+      - Shelburne
+      - Sierra Colorada
+      - South Plains
+      - St. Peter
+      - Taiban
+      - Tané
+      - Tjerebon
+      - Tsarev
+      - Umm Ruaba
+      - Wittekrantz
+      - L5/6
+      - Dar al Gani 356
+      - Dar al Gani 446
+      - Daraj 112
+      - Daraj 116
+      - Dhofar 047
+      - Mbale
+      - Northwest Africa 1593
+      - L5-6
+      - Acfer 040
+      - Dar al Gani 342
+      - Mocs
+      - L6
+      - Abernathy
+      - Acfer 197
+      - Acfer 213
+      - Acfer 216
+      - Acfer 218
+      - Acfer 240
+      - Acfer 241
+      - Acfer 242
+      - Acfer 246
+      - Acfer 252
+      - Acfer 254
+      - Acfer 255
+      - Acfer 261
+      - Acfer 263
+      - Acfer 266
+      - Acfer 280
+      - Acfer 290
+      - Acfer 297
+      - Acfer 298
+      - Acfer 305
+      - Acfer 306
+      - Acfer 309
+      - Acfer 319
+      - Aguemour 006
+      - Akaba
+      - Akron (1961)
+      - Alfianello
+      - Allan Hills A76009
+      - Andover
+      - Anson
+      - Apt
+      - Atwood
+      - Aumale
+      - Aumieres
+      - Aztec
+      - Bachmut
+      - Bath Furnace
+      - Baxter
+      - Belle Plaine
+      - Benthullen
+      - Bori
+      - Bowesmont
+      - Brewster
+      - Broken Hill
+      - Bruderheim
+      - Bursa
+      - Buschhof
+      - Calliham
+      - Çanakkale
+      - Chantonnay
+      - Château Renard
+      - Chitado
+      - Clovis (no.2)
+      - Colby (Wisconsin)
+      - Concho
+      - Coon Butte
+      - Coorara
+      - Cotesfield
+      - Dandapur
+      - Dar al Gani 301
+      - Dar al Gani 307
+      - Dar al Gani 309
+      - Dar al Gani 314
+      - Dar al Gani 316
+      - Dar al Gani 317
+      - Dar al Gani 320
+      - Dar al Gani 326
+      - Dar al Gani 328
+      - Dar al Gani 334
+      - Dar al Gani 341
+      - Dar al Gani 350
+      - Dar al Gani 355
+      - Dar al Gani 357
+      - Dar al Gani 358
+      - Dar al Gani 359
+      - Dar al Gani 360
+      - Dar al Gani 361
+      - Dar al Gani 362
+      - Dar al Gani 363
+      - Dar al Gani 364
+      - Dar al Gani 365
+      - Dar al Gani 366
+      - Dar al Gani 367
+      - Dar al Gani 368
+      - Dar al Gani 372
+      - Dar al Gani 374
+      - Dar al Gani 375
+      - Dar al Gani 376
+      - Dar al Gani 377
+      - Dar al Gani 379
+      - Dar al Gani 381
+      - Dar al Gani 382
+      - Dar al Gani 383
+      - Dar al Gani 393
+      - Dar al Gani 396
+      - Dar al Gani 397
+      - Dar al Gani 401
+      - Dar al Gani 402
+      - Dar al Gani 403
+      - Dar al Gani 404
+      - Dar al Gani 409
+      - Dar al Gani 414
+      - Dar al Gani 420
+      - Dar al Gani 421
+      - Dar al Gani 422
+      - Dar al Gani 423
+      - Dar al Gani 427
+      - Dar al Gani 428
+      - Dar al Gani 433
+      - Dar al Gani 437
+      - Dar al Gani 439
+      - Zomba
+      - Dar al Gani 440
+      - Dar al Gani 441
+      - Dar al Gani 453
+      - Dar al Gani 455
+      - Dar al Gani 456
+      - Dar al Gani 457
+      - Dar al Gani 458
+      - Dar al Gani 459
+      - Dar al Gani 460
+      - Dar al Gani 461
+      - Dar al Gani 462
+      - Dar al Gani 463
+      - Dar al Gani 464
+      - Dar al Gani 465
+      - Dar al Gani 466
+      - Dar al Gani 467
+      - Dar al Gani 470
+      - Dar al Gani 474
+      - Dar al Gani 477
+      - Dar al Gani 478
+      - Dar al Gani 481
+      - Dar al Gani 649
+      - Dar al Gani 650
+      - Dar al Gani 952
+      - Dar al Gani 956
+      - Dar al Gani 984
+      - Dar al Gani 985
+      - L6/7
+      - Dar al Gani 992
+      - Daraj 003
+      - Roosevelt County 064
+      - Roosevelt County 065
+      - Rose City
+      - Rosebud
+      - Saline
+      - Sayh al Uhaymir 009
+      - Sayh al Uhaymir 011
+      - Sayh al Uhaymir 013
+      - Sayh al Uhaymir 015
+      - Sayh al Uhaymir 018
+      - Sayh al Uhaymir 027
+      - Sayh al Uhaymir 029
+      - Sayh al Uhaymir 034
+      - Sayh al Uhaymir 035
+      - Sayh al Uhaymir 036
+      - Sayh al Uhaymir 098
+      - Sayh al Uhaymir 099
+      - Scurry
+      - Seagraves (b)
+      - Searsmont
+      - Shields
+      - Simmern
+      - Sinawan 002
+      - Sindhri
+      - Sitathali
+      - Sulphur Springs Draw
+      - Sutton
+      - Tabor
+      - Tanezrouft 017
+      - Tanezrouft 019
+      - Tanezrouft 023
+      - Tanezrouft 026
+      - Tanezrouft 032
+      - Tanezrouft 034
+      - Tanezrouft 035
+      - Tanezrouft 036
+      - Tanezrouft 046
+      - Tanezrouft 048
+      - Tanezrouft 050
+      - Texline
+      - Tiffa 001
+      - Tiffa 004
+      - Tiffa 005
+      - Tiffa 006
+      - Timochin
+      - Tokio (a)
+      - Toulon
+      - Travis County (a)
+      - Two Buttes (a)
+      - Uberaba
+      - Ucera
+      - Udipi
+      - Utzenstorf
+      - Warden
+      - Wellington
+      - Wellman (a)
+      - Wernigerode
+      - Wessely
+      - West Forrest
+      - Whitula Creek
+      - Wilburton
+      - Wiluna
+      - Witklip Farm
+      - Xinyi
+      - Yarle Lakes 001
+      - Yatoor
+      - Yorktown (Texas)
+      - Zaoyang
+      - Zebrak
+      - H5/6
+      - Acfer 221
+      - Acfer 222
+      - Acfer 224
+      - Acfer 233
+      - Acfer 249
+      - Acfer 256
+      - Acfer 273
+      - Acfer 303
+      - Adrar Madet
+      - Dar al Gani 306
+      - Dar al Gani 310
+      - Dar al Gani 336
+      - Dar al Gani 373
+      - Dar al Gani 386
+      - Dar al Gani 388
+      - Dar al Gani 415
+      - Dar al Gani 418
+      - Dar al Gani 438
+      - Dhofar 066
+      - Dhofar 075
+      - Dhofar 131
+      - Dhofar 353
+      - El Atchane 006
+      - Hughes 018
+      - Tanezrouft 016
+      - H5-6
+      - Acfer 275
+      - Dar al Gani 333
+      - Dar al Gani 471
+      - Dhofar 028
+      - Dhofar 359
+      - Djoumine
+      - Glanggang
+      - Northwest Africa 1602
+      - Northwest Africa 1603
+      - H5-7
+      - Doroninsk
+      - H6
+      - Aarhus
+      - Acfer 050
+      - Acfer 195
+      - Acfer 198
+      - Acfer 219
+      - Acfer 227
+      - Acfer 239
+      - Acfer 244
+      - Acfer 250
+      - Acfer 257
+      - Acfer 258
+      - Acfer 271
+      - Acfer 274
+      - Acfer 282
+      - Acfer 286
+      - Acfer 291
+      - Acfer 300
+      - Acfer 304
+      - Acfer 310
+      - Acfer 314
+      - Acfer 316
+      - Akron (1940)
+      - Andura
+      - Archie
+      - Benoni
+      - Blansko
+      - Butsura
+      - Cacilandia
+      - Canon City
+      - Cape Girardeau
+      - Cavour
+      - Charsonville
+      - Charwallas
+      - Cobija
+      - Dar al Gani 304
+      - Dar al Gani 308
+      - Dar al Gani 311
+      - Dar al Gani 312
+      - Dar al Gani 324
+      - Dar al Gani 337
+      - Dar al Gani 338
+      - Dar al Gani 344
+      - Dar al Gani 347
+      - Dar al Gani 370
+      - Dar al Gani 371
+      - Dar al Gani 390
+      - Dar al Gani 394
+      - Dar al Gani 395
+      - Dar al Gani 398
+      - Dar al Gani 407
+      - Dar al Gani 473
+      - Dar al Gani 954
+      - Dar al Gani 955
+      - Daraj 016
+      - Daraj 115
+      - Daraj 117
+      - Daraj 123
+      - Daraj 132
+      - Densmore (1950)
+      - Dhofar 029
+      - Dhofar 030
+      - Dhofar 035
+      - Dhofar 039
+      - Dhofar 040
+      - Dhofar 045
+      - Dhofar 056
+      - Dhofar 064
+      - Dhofar 076
+      - Dhofar 078
+      - Dhofar 082
+      - Dhofar 089
+      - Dhofar 106
+      - Dhofar 110
+      - Dhofar 118
+      - Dhofar 123
+      - Dhofar 124
+      - Dhofar 128
+      - Dhofar 134
+      - Dhofar 152
+      - Dhofar 153
+      - Dhofar 354
+      - Dhofar 355
+      - Dhofar 356
+      - Dhofar 357
+      - Dhofar 358
+      - Dhofar 368
+      - Dhofar 373
+      - Dhofar 374
+      - Dhofar 377
+      - Djati-Pengilon
+      - Dresden (Ontario)
+      - El Atchane 002
+      - El Carmen
+      - El Djouf 004
+      - Erxleben
+      - Estacado
+      - Felt
+      - Fluvanna (b)
+      - Forrest 036
+      - Forsbach
+      - Gopalpur
+      - Great Bend
+      - Grein 003
+      - Guareña
+      - Hammadah al Hamra 226
+      - Hart Camp
+      - Ijopega
+      - Jiddat al Harasis 015
+      - Kaldoonera Hill
+      - Kernouve
+      - Killeter
+      - Kimble County
+      - Kingai
+      - Klein-Wenden
+      - Lake Frome 004
+      - Lancon
+      - Lichtenberg
+      - Little River (a)
+      - Maridi
+      - Mills
+      - Morland
+      - Morton
+      - Moti-ka-nagla
+      - Mount Browne
+      - Naoki
+      - Nazareth (d)
+      - Northwest Africa 1605
+      - Northwest Africa 1607
+      - Northwest Africa 1610
+      - Nullarbor 002
+      - Nulles
+      - Oakley (stone)
+      - Orvinio
+      - Ouallen
+      - Ovid
+      - Ozona
+      - Patora
+      - Plantersville
+      - Portales Valley
+      - Qued Mya 001
+      - Queen's Mercy
+      - Sayh al Uhaymir 010
+      - Sayh al Uhaymir 016
+      - Sayh al Uhaymir 023
+      - Sayh al Uhaymir 033
+      - Sayh al Uhaymir 095
+      - Sayh al Uhaymir 097
+      - Seoni
+      - St. Germain-du-Pinel
+      - Taiga (stone)
+      - Talpa
+      - Tanezrouft 012
+      - Tanezrouft 022
+      - Tanezrouft 047
+      - Tanezrouft 049
+      - Tell
+      - Tirupati
+      - Tomatlan
+      - Toulouse
+      - Tugalin-Bulen
+      - Valdavur
+      - Vernon County
+      - Waka
+      - Wayside
+      - Zhovtnevyi
+      - L
+      - Aus
+      - Hartley
+      - Jerome (Idaho)
+      - Portis
+      - Rio Bunge
+      - Rogers
+      - Springfield (b)
+      - L/LL3
+      - Dar al Gani 313
+      - Tanezrouft 010
+      - L/LL3.4
+      - Esperance
+      - L/LL4
+      - Bjurböle
+      - Cynthiana
+      - Seemore Downs 001
+      - Tanezrouft 027
+      - L/LL5
+      - Knyahinya
+      - L/LL5-6
+      - Tanezrouft 011
+      - L/LL6
+      - Acfer 223
+      - Acfer 315
+      - Cabezo de Mayo
+      - L3
+      - Bovedy
+      - Dar al Gani 736
+      - Dar al Gani 737
+      - Dar al Gani 902
+      - Tanezrouft 039
+      - Yambo no. 2
+      - Gunlock
+      - L3.5
+      - Ioka
+      - L3.6
+      - Julesburg
+      - Khohar
+      - L3.7
+      - Ceniceros
+      - Mezö-Madaras
+      - Tanezrouft 038
+      - Tanezrouft 042
+      - L3.7-6
+      - Hedjaz
+      - L3.8
+      - Aguemour 009
+      - Tanezrouft 041
+      - Tanezrouft 053
+      - L3.8-an
+      - Moorabie
+      - L3.9
+      - Carraweena
+      - Tanezrouft 040
+      - L3.9/4
+      - Acfer 248
+      - L3-5
+      - Acfer 102
+      - Tanezrouft 030
+      - L3-6
+      - Dubrovnik
+      - L4
+      - Acfer 047
+      - Acfer 199
+      - Acfer 247
+      - Aguemour 008
+      - Aguemour 015
+      - Atarra
+      - Barratta
+      - Botschetschki
+      - Dalgety Downs
+      - Dar al Gani 323
+      - Dar al Gani 408
+      - Dar al Gani 899
+      - Daraj 002
+      - Daraj 010
+      - Daraj 119
+      - Daraj 141
+      - Delphos (a)
+      - Dhofar 083
+      - Dhofar 103
+      - Dhofar 133
+      - Dhofar 142
+      - Dhofar 147
+      - Dhofar 149
+      - Dhofar 369
+      - Floyd
+      - Fremont Butte
+      - Goodland
+      - Grassland
+      - Hammadah al Hamra 219
+      - Hammadah al Hamra 236
+      - Haxtun
+      - Hughes 011
+      - Sassolin
+      - 5.BA.10
+      - Malachit
+      - Rosasit
+      - Hydrozinkit
+      - 5.BE.15
+      - Phosgenit
+      - 5.CC.10
+      - Kimurait-(Y)
+      - 5.DA.15
+      - Zaratit
+      - 8.BD.05
+      - Pseudomalachit
+      - 5.NA.05
+      - Nitronatrit
+      - 5.NA.10
+      - Nitrokalit
+      - 6.DA.10
+      - Borax
+      - 6.AA.05
+      - 4.JH.10
+      - 8.DC.40
+      - Kakoxen
+      - Willemit
+      - Cereseto
+      - Chamberlin
+      - Channing
+      - Cocklebiddy
+      - Colby (Kansas)
+      - Coldwater (stone)
+      - Cole Creek
+      - Cope
+      - Cope (b)
+      - Covert
+      - Cross Roads
+      - Cuero
+      - Dalhart
+      - Dar al Gani 302
+      - Dar al Gani 321
+      - Dar al Gani 325
+      - Dar al Gani 329
+      - Dar al Gani 335
+      - Dar al Gani 339
+      - Dar al Gani 351
+      - Dar al Gani 389
+      - Dar al Gani 392
+      - Dar al Gani 410
+      - Dar al Gani 424
+      - Dar al Gani 452
+      - Dar al Gani 468
+      - Dar al Gani 648
+      - Dar al Gani 986
+      - Dar al Gani 987
+      - Dar al Gani 988
+      - Dar al Gani 991
+      - Daraj 001
+      - Daraj 004
+      - Daraj 009
+      - Daraj 013
+      - Daraj 020
+      - Daraj 102
+      - Daraj 118
+      - Daraj 120
+      - Daraj 125
+      - Daraj 127
+      - Daraj 135
+      - Daraj 136
+      - Daraj 138
+      - Daraj 139
+      - Daraj 140
+      - Daraj 142
+      - Darmstadt
+      - Deakin 009
+      - Dhofar 034
+      - Dhofar 037
+      - Dhofar 038
+      - Dhofar 041
+      - Dhofar 043
+      - Dhofar 048
+      - Dhofar 053
+      - Dhofar 060
+      - Dhofar 063
+      - Dhofar 065
+      - Dhofar 072
+      - Dhofar 073
+      - Dhofar 091
+      - Dhofar 098
+      - Dhofar 105
+      - Dhofar 117
+      - Dhofar 143
+      - Dhofar 144
+      - Dhofar 145
+      - Dhofar 154
+      - Dhofar 157
+      - Dhofar 362
+      - Dhofar 365
+      - Dhofar 372
+      - Dimboola
+      - Dokachi
+      - Dresden (Kansas)
+      - Ehole
+      - Eichstädt
+      - El Atchane 005
+      - El Atchane 009
+      - El Djouf 002
+      - Elba
+      - Elida (c)
+      - Elsinora
+      - Erldunda
+      - Eunice
+      - Eva
+      - Sayh al Uhaymir 004
+      - Sayh al Uhaymir 006
+      - Sayh al Uhaymir 012
+      - Sayh al Uhaymir 019
+      - Sayh al Uhaymir 021
+      - Sayh al Uhaymir 022
+      - Sayh al Uhaymir 024
+      - Sayh al Uhaymir 025
+      - Sayh al Uhaymir 026
+      - Sayh al Uhaymir 030
+      - Sayh al Uhaymir 031
+      - Sayh al Uhaymir 032
+      - Sayh al Uhaymir 037
+      - Sayh al Uhaymir 038
+      - Sayh al Uhaymir 101
+      - Shytal
+      - Sinawan 001
+      - Sleeper Camp 001
+      - Smith Center
+      - St. Francis Bay
+      - St. Michel
+      - Sublette
+      - Suizhou
+      - Sultanpur
+      - Tanezrouft 013
+      - Tanezrouft 018
+      - Tanezrouft 020
+      - Tanezrouft 021
+      - Tanezrouft 025
+      - Tanezrouft 029
+      - Tanezrouft 051
+      - Temple
+      - Tenham
+      - Tiberrhamine
+      - Tiffa 003
+      - Tilden
+      - Tourinnes-la-Grosse
+      - Tryon
+      - Tuan Tuc
+      - Udeiát el Had
+      - Umbarger
+      - Utrecht
+      - Valdinizza
+      - Valkeala
+      - Vouillé
+      - Waconda
+      - Walters
+      - Wardswell Draw
+      - West Point
+      - Wickenburg (stone)
+      - Willard (a)
+      - Wold Cottage
+      - Woolgorong
+      - York (stone)
+      - Zaborzika
+      - Zavid
+      - Brandon
+      - Seagraves (c)
+      - Shaw
+      - L-imp melt
+      - Caldwell
+      - Muckera 007
+      - LL
+      - Holman Island
+      - LL3
+      - Talbachat n'aït Isfoul
+      - LL3.1
+      - Bishunpur
+      - Krymka
+      - LL3.3
+      - Wells
+      - LL3.4
+      - Chainpur
+      - LL3.6
+      - Parnallee
+      - LL3.7
+      - Richfield
+      - LL3.8
+      - Dar al Gani 054
+      - LL3.8-6
+      - Acfer 066
+      - LL3-6
+      - Dhofar 360
+      - LL4
+      - Benares (a)
+      - Dar al Gani 298
+      - Dhofar 141
+      - Greenwell Springs
+      - Hamlet
+      - Kelly
+      - Northwest Africa 1547
+      - Northwest Africa 1548
+      - Roosevelt County 049
+      - Sleeper Camp 004
+      - Soko-Banja
+      - LL4-5
+      - Dar al Gani 444
+      - Dar al Gani 482
+      - LL4-6
+      - Acfer 268
+      - Daraj 108
+      - Daraj 109
+      - Dhofar 375
+      - Hammadah al Hamra 218
+      - Vishnupur
+      - LL5
+      - Acfer 208
+      - Alta'ameem
+      - Dar al Gani 305
+      - Dar al Gani 993
+      - Forrest Lakes
+      - Hunter
+      - Krähenberg
+      - Lazbuddie
+      - Northwest Africa 1550
+      - Northwest Africa 1551
+      - Oberlin
+      - Olivenza
+      - Paragould
+      - Richmond
+      - Sayh al Uhaymir 091
+      - Sayh al Uhaymir 092
+      - Sayh al Uhaymir 093
+      - Siena
+      - Tuxtuac
+      - LL5-6
+      - Acfer 091
+      - Acfer 251
+      - Acfer 253
+      - Acfer 267
+      - Acfer 296
+      - Dhofar 151
+      - Northwest Africa 1549
+      - Northwest Africa 1590
+      - Northwest Africa 1591
+      - LL6
+      - Acfer 236
+      - Acfer 264
+      - Acfer 269
+      - Acfer 293
+      - Acfer 295
+      - Appley Bridge
+      - Arcadia
+      - Athens
+      - Bandong
+      - Beeler
+      - Benton
+      - Bison
+      - Cherokee Springs
+      - Chicora
+      - Dar al Gani 434
+      - Dar al Gani 449
+      - Dar al Gani 472
+      - Dar al Gani 745
+      - Dar al Gani 989
+      - Dar al Gani 990
+      - Daraj 131
+      - Dhofar 126
+      - Dhurmsala
+      - Douar Mghila
+      - Ensisheim
+      - Hughes 001
+      - Jelica
+      - Lake Labyrinth
+      - Manbhoom
+      - Mangwendi
+      - Maroo
+      - Meru
+      - Naryilco
+      - Ottawa
+      - Oubari
+      - Perryton
+      - Saint-Séverin
+      - Segowlie
+      - St. Lawrence
+      - St. Mesmin
+      - Tanezrouft 033
+      - Trebbin
+      - Vavilovka
+      - OC
+      - Atwood (b)
+      - Bethel (a)
+      - Bronco
+      - Brownfield (c)
+      - Delphos (b)
+      - Densmore (c)
+      - Dora (stone)
+      - Elida (b)
+      - Grier (a)
+      - Hamilton (Texas)
+      - Happy (b)
+      - Happy (c)
+      - Hereford
+      - Leoville (b)
+      - Loop (c)
+      - Luray
+      - Myersville
+      - Ness County (c)
+      - New Moore (a)
+      - New Moore (b)
+      - Oasis State Park
+      - Pep
+      - Plainview (c)
+      - St. Vrain
+      - Stratton
+      - Thurman
+      - Tokio (b)
+      - Wellman (b)
+      - Pallasite
+      - Barcis
+      - Glorieta Mountain
+      - Marburg
+      - Mount Dyrring
+      - Rawlinna 001
+      - Springwater
+      - Vermillion
+      - Pallasite-an
+      - Brenham
+      - Pallasite-Eag Sta
+      - Eagle Station
+      - Pallasite-main gr
+      - Admire
+      - Ahumada
+      - Albin (Pallasite)
+      - Brahin
+      - Dora (pallasite)
+      - Esquel
+      - Finmarken
+      - Giroux
+      - Huckitta
+      - Imilac
+      - Krasnojarsk
+      - Marjalahti
+      - Molong
+      - Santa Rosalia
+      - Primitive achondrites
+      - Acapulcoite
+      - Acapulco
+      - Dhofar 125
+      - Brachinite
+      - Smithsonit
+      - 9.DK.05
+      - Rhodonit
+      - Andalusit
+      - 9.BG.35
+      - Vesuvian
+      - 9.DP.20
+      - Prehnit
+      - Hughes 026
+      - Reid 013
+      - Winonaite
+      - Lodranite
+      - Gibson
+      - Lodran
+      - Hammadah al Hamra 193
+      - Winona
+      - Zag (b)
+      - R3-4
+      - R3.8-5
+      - R4
+      - Acfer 217
+      - Dar al Gani 417
+      - Northwest Africa 845
+      - Northwest Africa 851
+      - Unknown
+      - Dhofar 363
+      - Undefined
+      - Undefined
+      - Little River
+      - Seminole
+      - Plainview
+      - Achondrite-ung
+      - Divnoe
+      - ungrouped chondrites
+      - Chondrite-ung
+      - Hammadah al Hamra 180
+      - Unknown
+      - Belle Plaine (No.4)
+      - Bullant Donga
+      - Djerj
+      - Rolla (Heidelberg)
+      - Roosevelt County
+      - Roy (Heidelberg)
+      - Salaices
+      - Dar al Gani 084
+      - Dar al Gani 340
+      - Dhofar 132
+      - El Gouanem
+      - Goalpara
+      - Haverö
+      - Northwest Africa 1241
+      - Northwest Africa 1500
+      - Northwest Africa 853
+      - Novo-Urei
+      - Shisr 007
+      - Kenna
+      - Ureilite-pmict
+      - Dar al Gani 319
+      - Ureilite
+      - Magnesit
+      - Strontianit
+      - Ankerit
+      - Witherit
+      - 8.BA.10
+      - Herderit
+      - 8.BB.05
+      - Ambligonit
+      - 8.BB.10
+      - Triplit
+      - Libethenit
+      - 8.BH.35
+      - Konichalcit
+      - Mimetesit
+      - Vanadinit
+      - 8.CA.45
+      - Scholzit
+      - 8.CD.10
+      - Variscit
+      - Skorodit
+      - 8.CG.05
+      - Messelit
+      - 8.CH.05
+      - Anapait
+      - 8.DC.25
+      - Strunzit
+      - 8.DC.50
+      - Wavellit
+      - 7.DD.15
+      - Spangolith
+      - 8.DK.10
+      - Pharmakosiderit
+      - 8.DM.10
+      - Tirolit
+      - 9.AF.25
+      - Chondrodit
+      - Humit
+      - Klinohumit
+      - Forsterit
+      - Monticellit
+      - Fayalit
+      - Schorlomit
+      - Pyrop
+      - Spessartin
+      - 9.FB.15
+      - 9.BD.10
+      - Hemimorphit
+      - 9.BE.10
+      - Ilvait
+      - 6.AB.30
+      - Vonsenit
+      - 2.FA.15
+      - Fluorapophyllit-1Q
+      - 9.EE.45
+      - Zeophyllit
+      - 9.EC.05
+      - Pyrophyllit
+      - Talk
+      - Chrysotil
+      - Serpentin
+      - Onkolithen
+      - Lizardit
+      - Antigorit
+      - Conophyton
+      - 9.EC.25
+      - Nontronit
+      - Onkolith
+      - Baicalia
+      - capricornia
+      - Yelma
+      - digitata
+      - Acaciella
+      - australica
+      - Pilbaria
+      - perplexa
+      - Asperina
+      - ashburtonia
+      - Radonitz
+      - Acfer 019
+      - Acfer 074
+      - Acfer 111
+      - LL4/5
+      - Acfer 112
+      - Allan Hills 88006
+      - Allan Hills 88007
+      - Allan Hills 88015
+      - Allan Hills 88022
+      - Allan Hills 88023
+      - Northwest Africa 5999
+      - Northwest Africa 5997
+      - Northwest Africa 5998
+      - Northwest Africa 5794
+      - Northwest Africa 5907
+      - United Arab Emirates 002
+      - Northwest Africa 5797
+      - Anorthit
+      - 9. FA. 55
+      - Danburit
+      - Hauyn
+      - Copal
+      - Brewsterit-Sr
+      - Stilbit-Ca
+      - Heulandit-Ca
+      - Petroleum
+      - Retinit
+      - Glaukodot
+      - 2.EB.25
+      - Millerit
+      - 2.CC.20
+      - 2.EB.10
+      - 9.AH.15
+      - Spurrit
+      - 2.BB.05
+      - Heazlewoodit
+      - 9.DG.30
+      - Hillebrandit
+      - Alabandin
+      - 9.BE.80
+      - Tilleyit
+      - Tetraedrit
+      - 2.CA.05
+      - Covellin
+      - Digenit
+      - 2.GA.05
+      - Proustit
+      - Gersdorffit
+      - Heterosit
+      - Zeunerit
+      - Arsen
+      - Chromit
+      - 2.BA.25
+      - Akanthit
+      - Salar de Imilac
+      - 2.FA.25
+      - Auripigment
+      - 4.FD.15
+      - Manganit
+      - 10.B.0
+      - Asphaltit
+      - 2.BA.10
+      - 1.CC.10
+      - Selen
+      - 2.AA.05
+      - Domeykit
+      - Hauerit
+      - Ullmannit
+      - 2.EB.30
+      - Löllingit
+      - Safflorit
+      - Pyrargyrit
+      - 2.GA.20
+      - Wittichenit
+      - Franklinit
+      - 4.AB.20
+      - Zinkit
+      - 4.AB.25
+      - Periklas
+      - 4.BB.05
+      - 4.BB.10
+      - Hausmannit
+      - Calciumoxalat
+      - Daraj 005
+      - Daraj 007
+      - Daraj 014
+      - Daraj 018
+      - Daraj 107
+      - Daraj 111
+      - Daraj 128
+      - De Nova
+      - Densmore (1879)
+      - Dhofar 005
+      - Dhofar 027
+      - Dhofar 031
+      - Dhofar 032
+      - Dhofar 036
+      - Dhofar 042
+      - Dhofar 052
+      - Dhofar 057
+      - Dhofar 059
+      - Dhofar 068
+      - Dhofar 070
+      - Dhofar 071
+      - Dhofar 084
+      - Dhofar 087
+      - Dhofar 088
+      - Dhofar 092
+      - Dhofar 093
+      - Dhofar 101
+      - Dhofar 102
+      - Dhofar 104
+      - Dhofar 107
+      - Dhofar 109
+      - Dhofar 112
+      - Dhofar 113
+      - Dhofar 114
+      - Dhofar 121
+      - Dhofar 122
+      - Dhofar 129
+      - Dhofar 136
+      - Dhofar 137
+      - Dhofar 138
+      - Dhofar 139
+      - Dhofar 146
+      - Dhofar 148
+      - Dhofar 155
+      - Dhofar 351
+      - Dhofar 352
+      - Dhofar 367
+      - Dhofar 370
+      - Dhofar 376
+      - Diep River
+      - Dolgovoli
+      - Edmonson (a)
+      - El Atchane 003
+      - El Atchane 007
+      - Elida (a)
+      - Fisher
+      - Forksville
+      - Forrest 002
+      - Forrest 034
+      - Forrest 035
+      - Forsyth
+      - Frankel City
+      - Frontier Mountain 84001
+      - Futtehpur
+      - Garraf
+      - Girgenti
+      - Grant County
+      - Grossliebenthal
+      - Hammadah al Hamra 222
+      - Hammadah al Hamra 223
+      - Hammadah al Hamra 224
+      - Hammadah al Hamra 229
+      - Hammadah al Hamra 232
+      - Hammadah al Hamra 234
+      - Hammadah al Hamra 238
+      - Hardtner
+      - Harleton
+      - Harrisonville
+      - Hayes Center
+      - Hermitage Plains
+      - Holbrook
+      - Hughes 002
+      - Isoulane-n-Amahar
+      - Jackalsfontein
+      - Jiddat al Harasis 012
+      - Jiddat al Harasis 017
+      - Johnson City
+      - Jumapalo
+      - Karkh
+      - Keyes
+      - Kharkov
+      - Kiel
+      - Kinley
+      - Kress (a)
+      - Kulnine
+      - Kunashak
+      - Kuttippuram
+      - Kyle
+      - Kyushu
+      - L'Aigle
+      - La Criolla
+      - Ladder Creek
+      - Lake Brown
+      - Lakewood
+      - Lalitpur
+      - Leedey
+      - Leeuwfontein
+      - Lissa
+      - Long Island
+      - Loop
+      - Macy
+      - Madrid
+      - Mainz
+      - Marion (Iowa)
+      - Mauerkirchen
+      - Mern
+      - Middlesbrough
+      - Minas Gerais
+      - Modoc (1905)
+      - Monze
+      - Mosca
+      - Muckera 005
+      - Muckera 010
+      - Muckera 011
+      - Muizenberg
+      - Muraid
+      - Muroc Dry Lake
+      - Nakhon Pathom
+      - Narellan
+      - Nashville (stone)
+      - Nazareth (b)
+      - Neenach
+      - Nerft
+      - Ness County (1894)
+      - New Concord
+      - Norcateur
+      - Northwest Africa 1594
+      - Northwest Africa 1595
+      - Northwest Africa 1596
+      - Northwest Africa 1597
+      - Northwest Africa 1598
+      - Northwest Africa 848
+      - Nullarbor 004
+      - Nullarbor 005
+      - Ojuelos Altos
+      - Oldenburg (1930)
+      - Otis
+      - Pampa (a)
+      - Paranaiba
+      - Park
+      - Peace River
+      - Perpeti
+      - Pervomaisky
+      - Portales (b)
+      - Potter
+      - Prambachkirchen
+      - Ramnagar
+      - Ramsdorf
+      - Rangala
+      - Reid 014
+      - Rich Mountain
+      - Roosevelt County 035
+      - Roosevelt County 044
+      - Roosevelt County 045
+      - Roosevelt County 047
+      - Roosevelt County 048
+      - Roosevelt County 059
+      - Rush Creek
+      - Salla
+      - Santa Isabel
+      - Chalkomenit
+      - 5.DC.05
+      - Kozoit-(Nd)
+      - 7.GA.05
+      - Scheelit
+      - Wulfenit
+      - 7.FA.20
+      - Krokoit
+      - 8.BL.20
+      - Beudantit
+      - 7.CC.20
+      - Alunit
+      - 7.EA.05
+      - Uranopilit
+      - 7.EC.05
+      - Zippeit
+      - 7.BC.10
+      - Natrojarosit
+      - Jarosit
+      - 7.CB.20
+      - Chalkanthit
+      - Anglesit
+      - 6.CA.15
+      - Meyerhofferit
+      - Annabergit
+      - 8.BB.30
+      - Olivenit
+      - Erythrin
+      - 8.BN.10
+      - Pyromorphit
+      - 8.DE.05
+      - Fluellit
+      - Mottramit
+      - 8.CJ.35
+      - Pharmakolith
+      - Gold
+      - 2.EA.05
+      - Sylvanit
+      - 1.AF.10
+      - Platin
+      - 1.CB.10
+      - Diamant
+      - Skapolith
+      - Realgar
+      - Zirkon
+      - 9.AF.15
+      - Staurolith
+      - 9.AD.20
+      - 9.DA.15
+      - Augit
+      - 9.BE.30
+      - Mosandrit
+      - 9.BD.20
+      - Axinit
+      - 9.BE.25
+      - Hjortdahlit I
+      - Muskovit
+      - Gilbertit
+      - 4.CB.15
+      - Pseudobrookit
+      - 9.DE.25
+      - Riebeckit
+      - Bernstein
+      - Lepidolith
+      - Harmotom
+      - 9.DA.05
+      - Enstatit
+      - Wöhlerit
+      - Diopsid
+      - Hedenbergit
+      - 9.DA.20
+      - Omphacit
+      - 9.DA.30
+      - Spodumen
+      - 9.DA.25
+      - Jadeit
+      - Ägirin
+      - 9.DE.10
+      - Ferroaktinolith
+      - 9.DB.05
+      - Karpholith
+      - 9.DC.05
+      - Astrophyllit
+      - Aktinolith
+      - 9.DD.05
+      - Anthophyllit
+      - 9.DE.15
+      - Hornblende
+      - 9.DD - 9.DE
+      - Amphibol
+      - Tremolit
+      - 9.DE.20
+      - Richterit
+      - Glaukophan
+      - 9.DH.40
+      - Aenigmatit
+      - 9.DE.05
+      - Cummingtonit
+      - Pektolith
+      - 9.HD.05
+      - Garnierit (wasserhaltige Nickelsilikate)
+      - Babingtonit
+      - Bustamit
+      - Melilith
+      - Phlogopit
+      - Fuchsit
+      - 9.EC.20
+      - Margarit
+      - Cerro La Tiza
+      - Northwest Africa 5953
+      - Northwest Africa 5954
+      - Northwest Africa 5954
+      - Northwest Africa 5955
+      - Seladonit
+      - Klinochlor
+      - Silber
+      - Minnichhof
+      - Pavlodar
+      - 1.CA.05
+      - Antimon
+      - 9.GB.05
+      - Analcim
+      - 2.CC.05
+      - Nickelin
+      - Stromatolithen
+      - Stromatolith
+      - Acfer 207
+      - Almahata Sitta
+      - Ureilite-an
+      - CB
+      - Northwest Africa 4025
+      - Northwest Africa 5492
+      - Tamdakht
+      - CH/CBb
+      - Isheyevo
+      - Boriskino
+      - United Arab Emirates 001
+      - Nobleborough
+      - Willemseit
+      - 9.BJ.50
+      - Zunyit
+      - Nakrit
+      - Chiang Khan
+      - Cobaltit
+      - Labradorit
+      - Hyalophan
+      - 9.DH.05
+      - Leukophan
+      - Mesolith
+      - 5.BB.05
+      - Roselith
+      - 9.DL.05
+      - Inesit
+      - Skolezit
+      - 9.GG.10
+      - Chabasit
+      - Phillipsit-Ca
+      - Phillipsit
+      - Chabasit-Na
+      - Népouit
+      - 10.BA.50
+      - 10.BA
+      - 10.BA.50
+      - Evenkit
+      - 10.AC.05
+      - Mellit
+      - 10.AB.05
+      - Humboldtin
+      - 10.AB.40
+      - Whewellit
+      - Ozokerit
+      - 4.DH.20
+      - Stibiconit
+      - 2.CB.10
+      - Chalkopyrit
+      - 2.GB.05
+      - Freibergit
+      - 2.CB.45
+      - Greenockit
+      - Fluorapatit
+      - Dawsonit
+      - Arsenopyrit
+      - Tennantit
+      - 3.AA.20
+      - Halit
+      - 2.HB.15
+      - Jamesonit
+      - 2.CB.50
+      - Enargit
+      - Chalkosin
+      - 9.DB.25
+      - Plancheit
+      - 8.BH.45
+      - Bayldonit
+      - Plattnerit
+      - Duftit
+      - Austinit
+      - Cornwallit
+      - 8.DD.05
+      - Chenevixit
+      - Mixit
+      - Wurtzit
+      - Antlerit
+      - 9.BH.10
+      - Kinoit
+      - 7.DG.15
+      - Ettringit
+      - Skutterudit
+      - 4.DK.00
+      - Manganomelan
+      - 1.AD.05
+      - Quecksilber
+      - 1.AA.10
+      - Aluminium
+      - 1.AB.05
+      - Zink
+      - Wismut
+      - Stibarsen
+      - Metacinnabarit
+      - 2.GA.15
+      - Molybdänit
+      - 2.DA.05
+      - Linneit
+      - Siegenit
+      - Metastibnit
+      - 2.GB.10
+      - Stephanit
+      - 2.GB.15
+      - Polybasit
+      - 2.HA.05
+      - Emplektit
+      - 2.HA.20
+      - Berthierit
+      - 2.HB.10
+      - Kobellit
+      - 2.HC.10
+      - Sartorit
+      - 2.HC.05
+      - Dufrénoysit
+      - 2.HC.25
+      - Plagionit
+      - 2.JA.10
+      - Cuprobismutit
+      - 3.AA.15
+      - Chlorargyrit
+      - 4.CB.60
+      - Bismit
+      - Vermiculit
+      - 4.CC.30
+      - Perowskit
+      - Northwest Africa 801
+      - Northwest Africa 801
+      - Northwest Africa 6901
+      - 6.EA.15
+      - Ulexit
+      - Tinzenit
+      - 9.BG.15
+      - Sursassit
+      - 5.DA.50
+      - Stichtit
+      - Hydrotalkit
+      - Obsidian
+      - Radiobaryt
+      - Sekaninait
+      - 8.BL.10
+      - Florencit-(La)
+      - Florencit-(Ce)
+      - Thorit
+      - Tveitit-(Y)
+      - 3.AC.10
+      - 3.BB.35
+      - Tachyhydrit
+      - 3.BD.25
+      - Koenenit
+      - 3.CB.05
+      - Dravit
+      - Ralstonit
+      - Metavivianit
+      - Symplesit
+      - Collinsit
+      - Fairfieldit
+      - Brandtit
+      - 8.CG.15
+      - Tsumcorit
+      - 8.CH.25
+      - Struvit
+      - Brushit
+      - Churchit-(Y)
+      - 8.DA.10
+      - Roscherit
+      - 8.DA.30
+      - Veszelyit
+      - 8.DA.40
+      - Spencerit
+      - 8.DB.05
+      - Diadochit
+      - 8.DB.10
+      - Vashegyit
+      - 8.DC.05
+      - Euchroit
+      - Paravauxit
+      - 8.DC.35
+      - Vauxit
+      - Chalkosiderit
+      - Planerit
+      - 8.DD.20
+      - Childrenit
+      - Eosphorit
+      - Bolivarit
+      - 8.DF.05
+      - Evansit
+      - Liskeardit
+      - 8.DF.10
+      - Lirokonit
+      - 8.DF.15
+      - Chalkophyllit
+      - 8.DG.05
+      - Lavendulan
+      - 8.DH.15
+      - Xanthoxenit
+      - 8.DH.30
+      - Arseniosiderit
+      - 8.DL.10
+      - Wardit
+      - 8.DM.05
+      - Morinit
+      - 8.EA.05
+      - Walpurgin
+      - 8.EA.10
+      - Parsonsit
+      - 8.EB.20
+      - Trögerit
+      - Dewindtit
+      - 8.FD.05
+      - Volborthit
+      - Eukryptit
+      - Tephroit
+      - Thorogummit
+      - 9.AE.20
+      - Hodgkinsonit
+      - 9.AE.30
+      - Klinoedrit
+      - 9.AE.40
+      - Katoptrit
+      - Quarz/Topas
+      - 9.AF.30
+      - Leukophoenicit
+      - Kyanit
+      - 9.AG.10
+      - Langbanit
+      - Cerit-(Ce)
+      - 9.AG.45
+      - Törnebohmit-(Ce)
+      - 9.AH.25
+      - Melanocerit-(Ce)
+      - Tritomit-(Ce)
+      - Bakerit
+      - Homilit
+      - 9.AJ.30
+      - Cappelenit-(Y)
+      - 9.AK.05
+      - Soddyit
+      - 9.AK.10
+      - Sklodowskit
+      - Kasolit
+      - Hardystonit
+      - 9.BB.15
+      - Barylith
+      - 9.BC.05
+      - Thortveitit
+      - 9.BC.20
+      - Barysilit
+      - 9.BD.05
+      - Bertrandit
+      - Axinit-(Mn)
+      - 9.BE.05
+      - Lawsonit
+      - Cuspidin
+      - Hiortdahlit
+      - Lavenit
+      - 9.BE.35
+      - Rosenbuschit
+      - 9.BE.40
+      - Lamprophyllit
+      - 9.BE.45
+      - Epistolit
+      - 9.BE.55
+      - Chevkinit-(Ce)
+      - 9.BE.65
+      - Molybdophyllit
+      - Nasonit
+      - 9.BE.70
+      - Kentrolith
+      - Melanotekit
+      - Dollaseit-(Ce)
+      - Hancockit
+      - Klinozoisit
+      - Pumpellyit
+      - 9.BG.25
+      - Ganomalith
+      - Wiluit
+      - 9.BJ.05
+      - Orientit
+      - 9.BJ.20
+      - Thalenit-(Y)
+      - 9.BJ.35
+      - Ardennit
+      - 9.BJ.45
+      - Prismatin
+      - 9.CA.25
+      - Margarosanit
+      - 9.CB.05
+      - Roeblingit
+      - 9.CE.20
+      - Taramellit
+      - 9.CH.05
+      - Hyalotekit
+      - Liddicoatit
+      - Uvit
+      - 9.CK.20
+      - Steenstrupin
+      - 9.CM.05
+      - Milarit
+      - Omphacit
+      - Aegirin
+      - Karpholit
+      - 9.DB.10
+      - Lorenzenit
+      - 9.DB.35
+      - Aerinit
+      - 9.DD
+      - 9.DD - 9.DE
+      - Amphibol
+      - Gedrit
+      - Holmquistit
+      - Edenit
+      - Ferrohornblende
+      - Katophorit
+      - 9.DF.25
+      - Bavenit
+      - 9.DG.15
+      - Foshagit
+      - 9.DG.20
+      - Yuksporit
+      - Xonotlit
+      - 9.DG.35
+      - Epididymit
+      - Eudidymit
+      - 9.DG.40
+      - Elpidit
+      - 9.DG.45
+      - Litidionit
+      - 9.DH.35
+      - Gageit
+      - Sapphirin
+      - Serendibit
+      - 9.DJ.05
+      - Narsarsukit
+      - 9.DK.15
+      - Hellandit-(Y)
+      - 9.DO.05
+      - Pyroxmangit
+      - 9.DP.05
+      - Meliphan
+      - Aspidolith
+      - Glimmer
+      - Polylithionit
+      - Quarz/Muskovit
+      - Roscoelith
+      - 9.EC.15
+      - Illit
+      - Bixbyit
+      - Saponit
+      - Stevensit
+      - Cookeit
+      - 9.EC.35
+      - Aliettit
+      - Neotokit
+      - Cronstedtit
+      - Karyopilit
+      - 9.ED.20
+      - Bismutoferrit
+      - 9.ED.25
+      - Volkonskoit
+      - 9.EE.05
+      - Bementit
+      - Friedelit
+      - 9.EE.35
+      - Truscottit
+      - 9.EG.15
+      - Ganophyllit
+      - Parsettensit
+      - 9.EH.20
+      - Ussingit
+      - Kaliophilit
+      - Anorthoklas
+      - Celsian
+      - Andesin
+      - 9.FA.55
+      - Danburit
+      - Cancrinit
+      - Mikrosommit
+      - Danalith
+      - Marialith
+      - Mizzonit
+      - Edingtonit
+      - Pollucit
+      - Dachiardit-Ca
+      - Ferrierit-Mg
+      - Mordenit
+      - Stellerit
+      - limestone
+      - 9.AK.15
+      - Boltwoodit
+      - 4.DB.25
+      - Samarskit-(Y)
+      - 8.EC.10
+      - Renardit
+      - 9.EE.20
+      - Palygorskit
+      - 9.CE.25
+      - Joaquinit-(Ce)
+      - Molysit
+      - 3.AC.15
+      - Fluocerit-(Ce)
+      - 3.BB.15
+      - Avogadrit
+      - Kryolithionit
+      - Gearksutit
+      - 3.CD.05
+      - 9.BG.20
+      - Prosopit
+      - 3.CJ.05
+      - Rinneit
+      - 3.CJ.10
+      - Idrialin
+      - 9.DA.
+      - Familia incertae sedis
+      - Meymacit
+      - Pyrostilpnit
+      - Xanthokon
+      - Samsonit
+      - Pearceit
+      - Jordanit
+      - 2.GB.35
+      - Nagyagit
+      - 2.GC.25
+      - Smithit
+      - Chalkostibit
+      - 2.HA.10
+      - Miargyrit
+      - 2.HA.15
+      - Livingstonit
+      - 2.HB.05
+      - Aikinit
+      - Meneghinit
+      - 2.HB.20
+      - Cannizzarit
+      - Franckeit
+      - Kylindrit
+      - Lengenbachit
+      - Dufrenoysit
+      - Baumhauerit
+      - Rathit
+      - Heteromorphit
+      - Semseyit
+      - 2.HF.15
+      - Zinkenit
+      - 2.HF.20
+      - Hutchinsonit
+      - 2.JA.05
+      - Benjaminit
+      - 2.JA.20
+      - Andorit
+      - Fizelyit
+      - Lillianit
+      - Schirmerit
+      - 2.JA.25
+      - Galenobismutit
+      - Weibullit
+      - 2.JA.30
+      - Cosalit
+      - 2.JB.05
+      - Freieslebenit
+      - Seligmannit
+      - 2.JB.45
+      - Finnemanit
+      - 3.AA.05
+      - Marshit
+      - 3.AA.10
+      - Jodargyrit
+      - Bromargyrit
+      - 3.AA.25
+      - Salmiak
+      - 3.AA.40
+      - Chlorocalcit
+      - 3.AB.15
+      - Sellait
+      - 3.AB.30
+      - Erythrosiderit
+      - Paratacamit
+      - 3.DA.25
+      - Connellit
+      - 3.DB.05
+      - Cumengeit
+      - 3.DC.05
+      - Laurionit
+      - Paralaurionit
+      - 3.DC.10
+      - Fiedlerit
+      - 3.DC.15
+      - Penfieldit
+      - 3.DC.25
+      - Matlockit
+      - 3.DC.30
+      - Nadorit
+      - 3.DC.35
+      - Ekdemit
+      - 3.DC.40
+      - Mendipit
+      - 3.DD.05
+      - Boleit
+      - 3.DD.20
+      - Terlinguait
+      - 3.DD.35
+      - Kleinit
+      - 4.AB.05
+      - Crednerit
+      - 4.AB.10
+      - Tenorit
+      - Manganosit
+      - 4.AC.15
+      - Montroydit
+      - 4.AC.25
+      - Massicotit
+      - 4.BA.05
+      - Chrysoberyll
+      - Hercynit
+      - Jakobsit
+      - Magnesioferrit
+      - Hetaerolith
+      - Hydrohetaerolith
+      - 4.BB.15
+      - Maghemit
+      - 4.BD.05
+      - Minium
+      - Geikielith
+      - Haematit
+      - Pyrophanit
+      - 4.CB.20
+      - Högbomit
+      - 4.CB.25
+      - Pseudorutil
+      - 4.CB.45
+      - Claudetit
+      - 4.CB.50
+      - Arsenolith
+      - Senarmontit
+      - Perovskit
+      - 4.CC.35
+      - Loparit
+      - 4.CC.40
+      - Davidit-(La)
+      - Senait
+      - 4.CC.45
+      - Magnetoplumbit
+      - Plumboferrit
+      - Chalcedon (Jaspis)
+      - Chalcedon (Kieselholz)
+      - Melanophlogit
+      - Ilmenorutil
+      - Kassiterit
+      - Plattnerit
+      - Pyrolusit
+      - Rutil
+      - Strüverit
+      - 4.DB.10
+      - Ferrotapiolit
+      - Ixiolith
+      - Ferberit
+      - Hübnerit
+      - Ferrocolumbit
+      - Ferrotantalit
+      - Manganotantalit
+      - 4.DE.15
+      - Koechlinit
+      - 4.DE.20
+      - Tellurit
+      - 4.DE.25
+      - Cervantit
+      - Tanteuxenit-(Y)
+      - 4.DG.10
+      - Yttrotantalit-(Y)
+      - Betafit
+      - Mikrolith
+      - Uranpyrochlor
+      - Yttropyrochlor-(Y)
+      - Bindheimit
+      - Monimolit
+      - Partzit
+      - Romeit
+      - Stetefeldtit
+      - Romanechit
+      - Todorokit
+      - Thorianit
+      - 4.EA.
+      - 4.EA.10
+      - Molybdit
+      - 4.FD.20
+      - Yttrotungstit-(Y)
+      - 4.FE.05
+      - Brucit
+      - Pyrochroit
+      - Böhmit
+      - 4.FE.20
+      - Heterogenit
+      - 4.FE.30
+      - Quenselit
+      - 4.FE.35
+      - Ferrihydrit
+      - 4.FJ.10
+      - Tungstit
+      - 4.FL.15
+      - Chalkophanit
+      - 4.FL.20
+      - Asbolan
+      - 4.FL.25
+      - Birnessit
+      - 4.GB.10
+      - Becquerelit
+      - 4.GB.35
+      - Masuyit
+      - Tyuyamunit
+      - 4.HC.05
+      - Pascoit
+      - 4.HE.15
+      - Hewettit
+      - 4.JB.40
+      - Trigonit
+      - 4.JM.10
+      - Emmonsit
+      - 4.KA.05
+      - Lautarit
+      - 4.KB.10
+      - Schwartzembergit
+      - Otavit
+      - Sphärocobaltit
+      - Delafossit
+      - 5.AB.30
+      - Alstonit
+      - Barytocalcit
+      - 5.BD.05
+      - Cordylit-(Ce)
+      - 5.BD.20
+      - Synchisit-(Ce)
+      - 5.BD.30
+      - Parisit-(Ce)
+      - 5.BD.35
+      - Bastnäsit-(Ce)
+      - 5.BE.20
+      - Beyerit
+      - Bismutit
+      - 5.BF.05
+      - Northupit
+      - 5.BF.40
+      - Leadhillit
+      - Susannit
+      - 5.CA.05
+      - Nesquehonit
+      - 5.CB.15
+      - Pirssonit
+      - 5.CC.20
+      - Lanthanit-(La)
+      - 5.DA.10
+      - Artinit
+      - 5.DA.45
+      - Brugnatellit
+      - Pyroaurit
+      - 5.DB.10
+      - Dundasit
+      - Ankylit-(Ce)
+      - 5.EA.05
+      - Rutherfordin
+      - 5.EC.20
+      - Liebigit
+      - 5.EG.05
+      - Schröckingerit
+      - 5.NA.20
+      - Nitrobaryt
+      - Hambergit
+      - 6.AB.15
+      - Jeremejewit
+      - 6.AB.20
+      - Warwickit
+      - Ludwigit
+      - 6.AB.35
+      - Hulsit
+      - Pinakiolith
+      - 6.AB.45
+      - Fluoborit
+      - 6.AC.25
+      - Cahnit
+      - Lüneburgit
+      - Sulfoborit
+      - 6.AH.
+      - 6.AH.30
+      - Priceit
+      - 6.BA.10
+      - Sussexit
+      - Szaibelyit
+      - 6.BB.05
+      - Pinnoit
+      - 6.CB.10
+      - Colemanit
+      - Hydroboracit
+      - 6.CB.15
+      - Howlith
+      - 6.DB.05
+      - Kernit
+      - 6.EB.05
+      - Larderellit
+      - 6.FC.15
+      - Ginorit
+      - 6.GA.
+      - 6.GA.05
+      - Boracit
+      - 6.GA.25
+      - Rhodizit
+      - 7.AB.10
+      - Chalkocyanit
+      - 7.AC.10
+      - Langbeinit
+      - 7.AC.25
+      - Thenardit
+      - 7.AC.30
+      - Glaserit
+      - 7.AD.05
+      - Mascagnin
+      - 7.AD.15
+      - Misenit
+      - 7.AD.25
+      - Glauberit
+      - 7.BB.30
+      - Klebelsbergit
+      - Argentojarosit
+      - Beaverit
+      - Hydroniumjarosit
+      - Natroalunit
+      - 7.BC.20
+      - Euchlorin
+      - 7.BC.25
+      - Caledonit
+      - 7.BD.10
+      - Caracolit
+      - 7.BD.15
+      - Hanksit
+      - 7.BD.25
+      - Lanarkit
+      - 7.CB.05
+      - Kieserit
+      - Szmikit
+      - 7.CB.35
+      - Bieberit
+      - Melanterit
+      - 7.CB.40
+      - Epsomit
+      - Morenosit
+      - 7.CB.45
+      - Alunogen
+      - Kornelit
+      - 7.CB.55
+      - Römerit
+      - 7.CB.60
+      - Dietrichit
+      - Halotrichit
+      - Pickeringit
+      - Kali-Alaun
+      - Tschermigit
+      - 7.CC.25
+      - Voltait
+      - 7.CC.30
+      - Kröhnkit
+      - 7.CC.45
+      - Löweit
+      - 7.CC.50
+      - Blödit
+      - 7.CC.55
+      - Leonit
+      - 7.CC.60
+      - Boussingaultit
+      - Cyanochroit
+      - Pikromerit
+      - 7.CC.65
+      - Polyhalit
+      - 7.CD.10
+      - Mirabilit
+      - 7.CD.25
+      - Syngenit
+      - 7.DB.20
+      - Amarantit
+      - Hohmannit
+      - 7.DB.25
+      - Copiapit
+      - 7.DC.05
+      - Fibroferrit
+      - 7.DC.10
+      - Botryogen
+      - 7.DC.20
+      - Aluminit
+      - 7.DD.10
+      - Langit
+      - Devillin
+      - 7.DD.25
+      - Woodwardit
+      - 7.DE.05
+      - Cyanotrichit
+      - 7.DE.25
+      - Stibiotantalit
+      - 7.DF.15
+      - Natrochalcit
+      - 7.DF.20
+      - Sideronatrit
+      - 7.DF.50
+      - Gordait
+      - Thaumasit
+      - 7.EB.05
+      - Johannit
+      - Natrozippeit
+      - 7.FC.05
+      - Vauquelinit
+      - Fergusonit-(Y)
+      - Powellit
+      - Stolzit
+      - 7.GB.15
+      - Cuprotungstit
+      - 7.GB.55
+      - Curit
+      - 8.AA.05
+      - Berlinit
+      - 8.AB.05
+      - Trimerit
+      - Lithiophilit
+      - 8.AB.20
+      - Graftonit
+      - 8.AC.10
+      - Arseniopleit
+      - Karyinit
+      - 8.AC.25
+      - Berzeliit
+      - Uranophan
+      - 8.AD.10
+      - Monetit
+      - Purpurit
+      - 8.AD.25
+      - Xenotim-(Y)
+      - 8.AD.30
+      - Pucherit
+      - Monazit-(Ce)
+      - Amblygonit
+      - Montebrasit
+      - Natromontebrasit
+      - Sarkinit
+      - Triploidit
+      - 8.BB.35
+      - Pseudobreccie
+      - Tissint
+      - Suevit
+      - Faustit
+      - Ägirinaugit
+      - 4.DG.15
+      - Thoreaulit
+      - Manganknollen
+      - '"Neuschwanstein"'
+      - Collenia
+      - undosa
+      - Jurusania
+      - Lignit
+      - Coal Minerals
+      - coal Minerals
+      - Coal Minerals
+      - Crandallit
+      - 8.EB.15
+      - 8.EB.15
+      - 8.EB.15
+      - Meta-Autunit
+      - Tarbuttit
+      - 8.BB.40
+      - Hentschelit
+      - Lazulith
+      - 8.BB.45
+      - Richellit
+      - 8.BE.05
+      - Cornetit
+      - Klinoklas
+      - 8.BE.10
+      - Allaktit
+      - 8.BE.15
+      - Chlorophoenicit
+      - 8.BE.20
+      - Dixenit
+      - Hämatolith
+      - Mcgovernit
+      - Synadelphit
+      - 8.BF.05
+      - Dickinsonit
+      - 8.BF.15
+      - Griphit
+      - 8.BG.05
+      - Arsentsumebit
+      - Brackebuschit
+      - Tsumebit
+      - 8.BH.10
+      - Durangit
+      - Lacroixit
+      - Tilasit
+      - 8.BH.30
+      - Attakolith
+      - Karminit
+      - Adelit
+      - Tangeit
+      - Vesignieit
+      - 8.BL.05
+      - Hidalgoit
+      - Hinsdalit
+      - Svanbergit
+      - Dussertit
+      - Gorceixit
+      - Goyazit
+      - Plumbogummit
+      - Carbonat-Fluorapatit
+      - Carbonat-Hydroxylapatit
+      - Fermorit
+      - Hydroxylapatit
+      - Svabit
+      - Hedyphan
+      - 8.CA.30
+      - Hopeit
+      - 8.CA.40
+      - Phosphophyllit
+      - 8.CB.10
+      - Hureaulith
+      - Villyaellenit
+      - 8.CC.05
+      - Reddingit
+      - 8.CD.05
+      - Phosphosiderit
+      - Strengit
+      - 8.CD.15
+      - Lindackerit
+      - Ludlamit
+      - Brassit
+      - 8.CE.15
+      - Rößlerit
+      - Hörnesit
+      - 8.CE.45
+      - Phosphoferrit
+      - 8.DH.10
+      - Leukophosphit
+      - Muschelkalk
+      - Diabas
+      - Tuffbreccie
+      - Erdbacher limestone
+      - Iberger limestone
+      - Mandelbasalt
+      - Northwest Africa 8276
+      - 5.BE.10
+      - Hydrocerussit
+      - Feldspat
+      - Bassikounou
+      - Bassikounou
+      - Northwest Africa 10870
+      - Northwest Africa 10870
+      - Northwest Africa 10870
+      - Klinoptilolith
+      - Tektit
+      - Uranocircit
+      - 4.HB.05
+      - Carnotit
+      - Adamin
+      - 8.BB.15
+      - Wagnerit
+      - 8.DM.20
+      - Delvauxit
+      - 8.DC.20
+      - Beraunit
+      - 2.DB.05
+      - Antimonit
+      - 4.DE. 30
+      - Baddeleyit
+      - 9.AG.05
+      - Braunit
+      - Sillimanit
+      - Paragonit
+      - 9.AF.20
+      - Topas
+      - 9.BB.10
+      - Gehlenit
+      - Gadolinit-(Y)
+      - Datolith
+      - Piemontit
+      - 9.BG.10
+      - Zoisit
+      - Allanit-(Y)
+      - Allanit
+      - Allanit-(Ce)
+      - 9.AG.20
+      - Cerit - (Ce)
+      - 9.AJ.10
+      - Dumortierit
+      - 9.CA.05
+      - Benitoit
+      - 9.EH.05
+      - Neptunit
+      - 9.CA.15
+      - Katapleit
+      - 9.CJ.05
+      - 9.CJ.05
+      - Beryll
+      - 9.CO.10
+      - Eudialyt
+      - Turmalin
+      - 9.AE.10
+      - Euklas
+      - 9.GG.05
+      - Gmelinit
+      - 9.CJ.10
+      - Cordierit
+      - 9.GC.10
+      - Asbest
+      - Amphibolasbest
+      - 9.ED.15
+      - Serpentinasbest
+      - Pargasit
+      - Unknown
+      - Seminole
+      - Kaersutit
+      - Arfvedsonit
+      - Korund
+      - 9.EA.15
+      - Apophyllit
+      - 9.EA.30
+      - Okenit
+      - 7.AD.30
+      - Anhydrit
+      - Clintonit
+      - 9.AF.45
+      - Chloritoid
+      - Ottrelith
+      - Eagle Station
+      - Zinnwaldit
+      - Itzawisis
+      - Bol
+      - Montmorillonit
+      - Wolchonskoit
+      - 9.ED.05
+      - Kaolinit
+      - Chromocker
+      - 9.AD.30
+      - Eulytin
+      - Halloysit
+      - Hisingerit
+      - 9.EE.10
+      - Pyrosmalith
+      - Allophan
+      - 9.EG.25
+      - Stilpnomelan
+      - Allan Hills 88003
+      - 9.EE.25
+      - Sepiolith
+      - Northwest Africa 1941
+      - 9.FA.05
+      - Nephelin
+      - Dickit
+      - Nosean
+      - 9.FB.05
+      - Davyn
+      - Lasurit
+      - 9.EH.15
+      - Sarkolith
+      - Mikroklin
+      - Sanidin
+      - Albit
+      - Helvin
+      - Tantalit
+      - 9.EF.05
+      - Petalit
+      - Mejonit
+      - Natrolith
+      - 8.CG.10
+      - 9.GB.10
+      - Laumontit
+      - 9.GC.05
+      - Gismondin
+      - 9.GG.15
+      - Faujasit
+      - Stilbit
+      - Gilzem
+      - 9.GD.05
+      - Epistilbit
+      - 7.BB.15
+      - Brochantit
+      - Levyn
+      - Chabasit-Ca
+      - Sonolith
+      - 1.AE.05
+      - Eisen
+      - 2.GB.20
+      - Geokronit
+      - 2.CB.15
+      - Stannit
+      - Stewartit
+      - Laueit
+      - 2.AA.30
+      - Dyskrasit
+      - Pseudolaueit
+      - 8.BC.10
+      - Rockbridgeit
+      - 8.DC.30
+      - 7.CB.50
+      - Coquimbit
+      - 8.CE.10
+      - Newberyit
+      - 9.EE.30
+      - Gyrolith
+      - 2.EB.20
+      - Markasit
+      - Kutnahorit
+      - 7.DD.20
+      - Serpierit
+      - Bariumpharmakosiderit
+      - 8.DL.15
+      - Heinrichit
+      - 2.HD.05
+      - Lorandit
+      - Agardit-(Y)
+      - Rhönit
+      - 3.AA.30
+      - Kalomel
+      - 4.CB.55
+      - Valentinit
+      - 2.FD.05
+      - Kermesit
+      - Spinell
+      - Gahnit
+      - Argentit
+      - '10'
+      - Vitrit
+      - 2.BB.15
+      - Pentlandit
+      - 2.CB.20
+      - Famatinit
+      - Breithauptit
+      - Clausthalit
+      - Yttrocerit
+      - Sylvin
+      - 3.BA.10
+      - Carnallit
+      - 3.CB.15
+      - Kryolith
+      - 3.CE.05
+      - Chiolith
+      - 3.CB.40
+      - Pachnolith
+      - 3.DA.10
+      - Atacamit
+      - 3.DC.50
+      - Cotunnit
+      - 2.FJ.05
+      - Uwarowit
+      - Bischofit
+      - 3.CA.10
+      - Thomsenolith
+      - 3.CC.05
+      - 3.CF.05
+      - Algodonit
+      - cephalopod limestone
+      - 6.AB.05
+      - (Kaliammoniakalaun)
+      - '?'
+      - Asphalt
+      - Bernstein
+      - Bitumen
+      - Erdöl
+      - Harz
+      - Holz
+      - Huntilith
+      - Ilsemannit
+      - Kalkstein
+      - Kimberlit
+      - Kohle
+      - Kohlenwasserstoff
+      - Kolovratit
+      - Mangandendriten
+      - Manganoxidhydroxid
+      - Pelokonit
+      - Petroleum
+      - Pitticit
+      - Prilepit
+      - Selenjodsilber
+      - Ton
+      - Blei
+      - Iridium
+      - 1.CA.10
+      - Arsenolamprit
+      - Tellur
+      - 10.BA.
+      - 10.BA.05
+      - Fichtelit
+      - 10.BA.10
+      - Hartit
+      - 10.BA.20
+      - 2.BA.15
+      - Berzelianit
+      - Umangit
+      - 2.BA.20
+      - Rickardit
+      - 2.BA.30
+      - Stromeyerit
+      - 2.BA.35
+      - Aguilarit
+      - Eukairit
+      - Naumannit
+      - 2.BA.40
+      - Hessit
+      - Stützit
+      - 2.BA.45
+      - Argyrodit
+      - Canfieldit
+      - 2.BB.10
+      - Hauchecornit
+      - 2.BD.15
+      - Crookesit
+      - 2.BJ.
+      - 2.BJ.45
+      - Kornerupin
+      - Coloradoit
+      - Luzonit
+      - 2.CB.35
+      - Germanit
+      - 2.CB.40
+      - Lautit
+      - 2.CB.55
+      - Cubanit
+      - 2.CB.65
+      - Argentopyrit
+      - Sternbergit
+      - 2.CB.70
+      - Sulvanit
+      - Troilit
+      - 2.CD.05
+      - Teallit
+      - Altait
+      - Schapbachit
+      - 2.CD.15
+      - Matildit
+      - 2.CD.20
+      - Aramayoit
+      - Diaphorit
+      - Carrollit
+      - Polydymit
+      - Bismuthinit
+      - Guanajuatit
+      - 2.DC.05
+      - Joseit
+      - Pilsenit
+      - Tellurobismutit
+      - Tetradymit
+      - '2.E: Metal Sulfides, M: S :S=1: 2'
+      - 2.EA.
+      - 2.EA.05
+      - Calaverit
+      - Krennerit
+      - Sylvanit
+      - 2.EA.15
+      - Tungstenit
+      - 2.EB.
+      - 2.EB.05
+      - Hauerit
+      - Laurit
+      - Pyrit
+      - Sperrylith
+      - 2.EB.10
+      - Cobaltit
+      - Gersdorffit
+      - Ullmannit
+      - 2.EB.20
+      - Markasit
+      - 2.EB.25
+      - Arsenopyrit
+      - Glaukodot
+      - Safflorit
+      - 2.EB.30
+      - Löllingit
+      - Rammelsbergit
+      - 2.EC.
+      - 2.EC.05
+      - Nickelskutterudit
+      - Skutterudit
+      - 2.FD.30
+      - Valleriit
+      - 2.FJ.
+      - Frondelit
+      - Cyrilovit
+      - Keckit
+      - Korallenkalk
+      - Stalagmiten/Stalaktiten
+      - Opal-AN
+      - 4.GA.15
+      - Studtit
+      dinaComponent: MATERIAL_SAMPLE
+      key: geology_specimen_type_name
+      multilingualDescription.descriptions:
+      - desc: 'idea: use controlled vocabulary here e.g. igneous rocks - sedimentary
+          - ... Should be connected to a remote api providing unique IDs and names
+          on the long term. Consider: https://data.bgs.ac.uk/v/vocab/rthmtrlclss:RockClassAll
+          or ENVO hierarchy below http://purl.obolibrary.org/obo/ENVO_00001995'
+        lang: en
+      name: Geology specimen type name
+    key: sgn_geosample
+    name: SGN Geologic Sample
+    version: v1
+
