@@ -204,4 +204,7 @@
   <include file="db/changelog/migrations/191-Add_lastUpdatedOn_controlled_vocabulary.xml"/>
   <include file="db/changelog/migrations/192-Migrate_managed_attribute_to_controlled_vocabulary_item.xml"/>
   <include file="db/changelog/migrations/193-Make_controlled_vocabulary_item_vocabulary_element_type_not_null.xml"/>
-  </databaseChangeLog>
+  <include file="db/changelog/initial-data/9-Create_collection_identifier_type_controlled_vocabulary.xml"/>
+  <include file="db/changelog/migrations/194-Migrate_collection_identifier.xml"/>
+  <include file="db/changelog/migrations/195-Increase_material_sample_name_limit.xml"/>
+</databaseChangeLog>
