@@ -1,16 +1,14 @@
 package ca.gc.aafc.collection.api.entities;
 
-import ca.gc.aafc.collection.api.dto.MaterialSampleHierarchyObject;
+import java.time.LocalDate;
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
-import lombok.experimental.SuperBuilder;
 import org.hibernate.validator.constraints.UniqueElements;
 import org.javers.core.metamodel.annotation.DiffIgnore;
 
+import ca.gc.aafc.collection.api.dto.MaterialSampleHierarchyObject;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -24,11 +22,12 @@ import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
 import jakarta.persistence.Version;
 import jakarta.validation.constraints.Size;
-
-import java.time.LocalDate;
-import java.util.List;
-import java.util.Optional;
-import java.util.UUID;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+import lombok.experimental.SuperBuilder;
 
 @Entity
 @AllArgsConstructor
@@ -44,7 +43,8 @@ public class MaterialSample extends AbstractMaterialSample {
     CULTURE_STRAIN,
     ORGANISM_PART,
     MIXED_ORGANISMS,
-    MOLECULAR_SAMPLE;
+    MOLECULAR_SAMPLE,
+    MULTI_MATERIAL_SAMPLES;
 
     /**
      * More lenient version of {@link #valueOf(String)}.
