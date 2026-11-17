@@ -4,6 +4,7 @@ import ca.gc.aafc.collection.api.service.StorageHierarchicalObject;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -15,7 +16,13 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Transient;
+import jakarta.persistence.Column;
+import org.hibernate.annotations.JdbcTypeCode;
+import org.hibernate.type.SqlTypes;
+
 import java.util.List;
+import java.util.Map;
+import java.util.UUID;
 
 @Entity
 @AllArgsConstructor
@@ -38,6 +45,9 @@ public class StorageUnit extends AbstractStorageUnit {
   @NotNull
   private Boolean isGeneric = false;
 
+  @Column(name = "attachment", columnDefinition = "uuid[]")
+  private List<UUID> attachment = List.of();
+
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = PARENT_ID_COLUMN_NAME)
   private StorageUnit parentStorageUnit;
@@ -52,5 +62,11 @@ public class StorageUnit extends AbstractStorageUnit {
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = TYPE_COLUMN_NAME)
   private StorageUnitType storageUnitType;
+
+  @JdbcTypeCode(SqlTypes.JSON)
+  @Column(columnDefinition = "jsonb")
+  @NotNull
+  @Builder.Default
+  private Map<String, String> managedAttributes = Map.of();
 
 }

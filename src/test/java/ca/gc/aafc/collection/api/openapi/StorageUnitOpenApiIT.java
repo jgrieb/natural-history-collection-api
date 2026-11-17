@@ -3,6 +3,7 @@ package ca.gc.aafc.collection.api.openapi;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
+import org.springframework.http.HttpStatus;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestPropertySource;
 
@@ -14,8 +15,11 @@ import ca.gc.aafc.dina.testsupport.BaseRestAssuredTest;
 import ca.gc.aafc.dina.testsupport.PostgresTestContainerInitializer;
 import ca.gc.aafc.dina.testsupport.jsonapi.JsonAPITestHelper;
 import ca.gc.aafc.dina.testsupport.specs.OpenAPI3Assertions;
+import ca.gc.aafc.dina.testsupport.specs.ValidationRestrictionOptions;
 import lombok.SneakyThrows;
 
+import java.util.Map;
+import java.util.Set;
 @SpringBootTest(
   classes = CollectionModuleApiLauncher.class,
   webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
@@ -40,9 +44,28 @@ public class StorageUnitOpenApiIT extends BaseRestAssuredTest {
     storageUnitDto.setParentStorageUnit(null);
     storageUnitDto.setStorageUnitType(null);
     storageUnitDto.setStorageUnitChildren(null);
+    storageUnitDto.setAttachment(null);
 
-    OpenAPI3Assertions.assertRemoteSchema(OpenAPIConstants.COLLECTION_API_SPECS_URL, "StorageUnit",
-      sendPost(TYPE_NAME, JsonAPITestHelper.toJsonAPIMap(TYPE_NAME, JsonAPITestHelper.toAttributeMap(storageUnitDto))
-      ).extract().asString());
+    String uuid = JsonAPITestHelper.extractId(
+      sendPost(
+        TYPE_NAME,
+        JsonAPITestHelper.toJsonAPIMap(
+          TYPE_NAME,
+          JsonAPITestHelper.toAttributeMap(storageUnitDto),
+          Map.of(
+            "attachment",
+            JsonAPITestHelper.generateExternalRelationList("metadata", 1)),
+          null)));
+
+    // relationships are only rendered when included
+    OpenAPI3Assertions.assertRemoteSchema(
+      OpenAPIConstants.COLLECTION_API_SPECS_URL,
+      "StorageUnit",
+      sendGet(TYPE_NAME, uuid, Map.of("include", "attachment"), HttpStatus.OK.value())
+        .extract().asString(),
+      ValidationRestrictionOptions.builder()
+        .allowAdditionalFields(false)
+        .allowableMissingFields(Set.of("parentStorageUnit", "storageUnitType"))
+        .build());
   }
 }
